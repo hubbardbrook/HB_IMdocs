@@ -14,7 +14,7 @@ Throughout these pages you will encounter a number of acronyms. They are typical
 - HBR: Acronym for the Hubbard Brook LTER\
 - LTER: Long-term Ecological Research\
 - LNO: LTER Network Office\
-- PASTA:\
+- PASTA+:\ The software that runs the repository
 - RAC: Research Advisory Committee\
 - RCC: Research Computing Center\
 - USFS: USDA Forest Service\

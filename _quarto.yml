@@ -36,6 +36,7 @@ format:
         </script>
    
     css: styles.css
+    toc-title: "On this page"
   pdf:
     documentclass: scrreprt
 
