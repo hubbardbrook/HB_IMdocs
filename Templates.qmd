@@ -1,0 +1,15 @@
+# Templates
+
+## Email
+
+- Confirm addition to listserv, invite to have a profile page, introduce IM support
+
+  Access [Email template](Email_Welcome2HBR.md)
+  
+- IM introduction following RAC proposal acceptance
+
+## Data Submission Template
+
+## Sample Archive Submission Template
+
+

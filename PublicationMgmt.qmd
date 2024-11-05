@@ -1,0 +1,17 @@
+# Publication Management
+
+## Overview
+
+Hubbard Brook publications are managed in Zotero. 
+
+## Zotero
+
+Local IM desktop, tagging of publications, syncing to zotero cloud
+
+## EDI publication-data linkages
+
+How this happens, reports we can generate from this
+
+## Zotpress
+
+to display pubs on the people profile pages on website

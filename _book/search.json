@@ -1,0 +1,582 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hubbard Brook Information Management Documents",
+    "section": "",
+    "text": "Preface\nThis collection of documentation contains details on Information Management for the Hubbard Brook Experimental Forest. Data are managed by both the USDA Forest Service (USFS) and the Information Manager for the Hubbard Brook LTER site (one of 25+ sites funded by NSF’s Long-term Ecological Research program).\nIn addition to an overview of information management at HBR, we include supplemental chapters and associated documents covering more dynamic details such as inventory/status of data packages, current IM projects and timelines, a guide to the operation of the HBR website, and a step-by-step guide to the development of HBR data packages and associated local data catalog. This document is revised periodically to reflect changes in IM assets, status, workflows, etc.\nThroughout these pages you will encounter a number of acronyms. They are typically identified before first use within a chapter…but just in case:\n\nEDI: Environmental Data Initiative\n\nEML: Ecological Metadata Language\n\nESRC: Earth Systems Research Center\n\nHBEF: Hubbard Brook Experimental Forest\n\nHBR: Acronym for the Hubbard Brook LTER\n\nLTER: Long-term Ecological Research\n\nLNO: LTER Network Office\n\nPASTA:\n\nRAC: Research Advisory Committee\n\nRCC: Research Computing Center\n\nUSFS: USDA Forest Service\n\nUNH: University of New Hampshire\n\nWMNF: White Mountain National Forest",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Data Management Plan",
+    "section": "",
+    "text": "1.1 History of IM at the Hubbard Brook Experimental Forest\nThe Hubbard Brook Experimental Forest (HBEF; USDA Forest Service) was established in 1955 and became an NSF-funded Long Term Ecological Research Site (HBR) in 1988. Information management has been an important component at Hubbard Brook from its inception. Data and documents from 1955 onward have been stored and protected, and although most of these early items consist of physical assets (paper charts, photographic slides, field notes, handwritten data, publications, etc), much of this material has been converted to digital format, with original copies in fireproof storage at the HBEF Pierce Lab and at the Northern Research Station in Durham, NH.\nThe establishment of the LTER-HBR occurred at a time of rapidly changing technology; desktop computers and email were new, and the internet as we know it was still several years away. The Hubbard Brook community fully embraced these emerging technological resources, and established access to data with the ‘Source of the Brook’, a public access dial-up electronic bulletin board, which allowed easy retrieval of many data sets from the HBR (1990). From a dialup bulletin board and gopher server in the early 1990s, to the World Wide Web in the late 1990s, HBR’s latest technology advances in publicly sharing data and resources has seen a migration of the website to WordPress, a data catalog built on dynamic access to content in the Environmental Data Initiative repository (EDI), bibliography management in Zotero, to name a few…\nUntil 2012, Information management for HBR was provided through the Forest Service, with John Campbell filling this role from 1997-2012. During this time, the LTER network adopted EML (Ecological Metadata Language) as a metadata standard, and HBR was an early adopter of this standard. In 2003-4 the first EML-based data packages were prepared for HBR with online download access and formatted browser display of metadata.\nFunding for the HBR Information Management position was provided in the 2010 renewal of LTER-HBR funding (HBR5), and the position was filled in mid-2012 by Mary Martin (Earth Systems Research Center, University of New Hampshire, Durham, NH).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "intro.html#scope-of-document",
+    "href": "intro.html#scope-of-document",
+    "title": "1  Overview and Data Management Plan",
+    "section": "2.1 Scope of Document",
+    "text": "2.1 Scope of Document\nThis description of Information Management at Hubbard Brook is intended as an internal document to be made available to the HBR community, reviewers, and advisers. Appendices and supplemental documents cover more dynamic details such as inventory/status of data packages, current IM projects and timelines, a guide to the operation of the HBR website, and a step-by-step guide to the development of HBR data packages. This document is revised periodically to reflect changes in IM assets, status, workflows, etc.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview and Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#history-of-im-at-the-hubbard-brook-experimental-forest",
+    "href": "intro.html#history-of-im-at-the-hubbard-brook-experimental-forest",
+    "title": "1  Overview and Data Management Plan",
+    "section": "2.2 History of IM at the Hubbard Brook Experimental Forest",
+    "text": "2.2 History of IM at the Hubbard Brook Experimental Forest\nThe Hubbard Brook Experimental Forest (HBEF; USDA Forest Service) was established in 1955 and became an NSF-funded Long Term Ecological Research Site (HBR) in 1988. Information management has been an important component at Hubbard Brook from its inception. Data and documents from 1955 onward have been stored and protected, and although most of these early items consist of physical assets (paper charts, photographic slides, field notes, handwritten data, publications, etc), much of this material has been converted to digital format, with original copies in fireproof storage at the HBEF Pierce Lab and at the Northern Research Station in Durham, NH.\nThe establishment of the LTER-HBR occurred at a time of rapidly changing technology; desktop computers and email were new, and the internet as we know it was still several years away. The Hubbard Brook community fully embraced these emerging technological resources, and established access to data with the ‘Source of the Brook’, a public access dial-up electronic bulletin board, which allowed easy retrieval of many data sets from the HBR (1990). From a dialup bulletin board and gopher server in the early 1990s, to the World Wide Web in the late 1990s, HBR’s latest technology advances in publicly sharing data and resources has seen a migration of the website to WordPress, a data catalog built on dynamic access to content in the Environmental Data Initiative repository (EDI), bibliography management in Zotero, to name a few…\nUntil 2012, Information management for HBR was provided through the Forest Service, with John Campbell filling this role from 1997-2012. During this time, the LTER network adopted EML (Ecological Metadata Language) as a metadata standard, and HBR was an early adopter of this standard. In 2003-4 the first EML-based data packages were prepared for HBR with online download access and formatted browser display of metadata.\nFunding for the HBR Information Management position was provided in the 2010 renewal of LTER-HBR funding (HBR5), and the position was filled in mid-2012 by Mary Martin (Earth Systems Research Center, University of New Hampshire, Durham, NH).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview and Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#governance",
+    "href": "intro.html#governance",
+    "title": "1  Data Management Plan",
+    "section": "1.2 Governance",
+    "text": "1.2 Governance\nInformation management at the Hubbard Brook Ecosystem Study (HBES) is guided by the Information Oversight Committee (IOC), which meets on an ad hoc basis with virtual IOC meetings scheduled accordingly.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#research-approval-committee",
+    "href": "intro.html#research-approval-committee",
+    "title": "1  Data Management Plan",
+    "section": "1.3 Research Approval Committee",
+    "text": "1.3 Research Approval Committee\nA Research Approval Committee (RAC) has been established to assist the Forest Service and broader HBES community in making decisions regarding what research studies will be allowed. In making its recommendation, the RAC considers a number of factors related to: (1) the relationship of the proposed project to the overall Hubbard Brook Ecosystem Study (how does this project fit into the overall study; why is it important for this research to occur at the Hubbard Brook Experimental Forest, as opposed to some other site); (2) the scientific merit of the proposed research; (3) the integrity of the site (e.g. how will this research impact the Forest or other ongoing research projects); and (4) the extent to which the proposed research compromises or enhances ongoing efforts. The RAC’s critical review of proposed research at Hubbard Brook helps ensure that the scientific value of the Hubbard Brook Experimental Forest is maintained for the future.\nProposal submissions to the RAC are made through JotForm webforms on https://hubbardbrook.org/research/research-proposal-submission, and are currently being used to develop a project-level database to support the RAC review process and IM tracking of data collections at Hubbard Brook. Researchers approved by the RAC are encouraged to submit data to be included in the Hubbard Brook Data Catalog, regardless of funding source.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#overview",
+    "href": "intro.html#overview",
+    "title": "1  Data Management Plan",
+    "section": "3.1 Overview",
+    "text": "3.1 Overview\nHBR data packages are prepared for submission to the Environmental Data Initiative (EDI), following best practices developed over 4 decades by the LTER Information Management community (https://ediorg.github.io/data-package-best-practices/eml-best-practices.html). These best practices, and the efforts of the EDI, ensure that data are Findable, Accessible, Interoperable, and Reusable, following the principles of the FAIR initiative. The EDI serves as the primary repository for HBR data, and details about the operation of EDI can be found at https://edirepository.org.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#data-holdings",
+    "href": "intro.html#data-holdings",
+    "title": "1  Data Management Plan",
+    "section": "3.2 Data Holdings",
+    "text": "3.2 Data Holdings\nThe HBR data catalog has had a strong emphasis on long-term datasets and data from the major watershed experiments. Many of these data pre-date the establishment of LTER-HBR, and are now available as a result of a 60+ year culture of robust data curation and sharing. More than 20 HBR data packages have been collected over a period of 50 or more years, with another 30 covering a timespan of more than 20 years. Through close coordination with the Research Approval Committee, the Hubbard Brook Committee of Scientists, and project administration, HBR-IM is able to identify datasets that can be incorporated into our data catalog. Graduate students working at Hubbard Brook are also surveyed periodically to identify forthcoming datasets and they are also trained in the EDI data publication workflow.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#metadata-standards",
+    "href": "intro.html#metadata-standards",
+    "title": "1  Data Management Plan",
+    "section": "3.3 Metadata Standards",
+    "text": "3.3 Metadata Standards\nAll HBR data packages are prepared for submission through the development of metadata in the Ecological Metadata Language standard (EML; https://eml.ecoinformatics.org/eml-ecological-metadata-language). Basic EML content includes: title, abstract, personnel, contacts, publication date, spatial and temporal coverages, keywords (consistent with LTER controlled vocabulary), project funding, publisher, data access and use policies, and detailed attribute-level metadata. Data download and use is facilitated through the fully described attribute metadata (column names, definitions, units, missing values, and coding). The highest level of EML completion is achieved through the EDI congruency checker with informational, warning, and error messages that provide feedback to HBR-IM on additional steps that can (or must) be taken to submit to the repository. These congruency checks read both metadata and data, testing a minimum of 40 conditions that can be addressed to insure that data packages are are fully capable of integration with other data, and fully operational in higher level workflows and automated data processing.\nIn 2019, LTER sites began using EML2.2. EML2.2 provides the structure to accommodate a number of advanced metadata elements. Of note, is the ability to annotate data packages at the data package, entity, and attribute level, by linking to persistent identifiers in ontologies, such as those found at https://bioportal.bioontology.org/ontologies and elsewhere. As the annotation elements in EML2.2 become populated, both the discoverability of datasets, and the ability to use datasets in synthesis efforts will be enhanced. HBR-IM has been a member of both the EDI Semantics Working Group (formed in January 2019), and the EDI/LTER Units Working group (2023-present), which have a goal of developing best practices and training on the use of the new EML2.2 annotation elements. The Units Working Group is responsive to recommendations from the LTER 40-year review on facilitating synthesis efforts. This has been accomplished by establishing a relationship with the QUDT ontology (https://qudt.org), developing code to map ad hoc units to this ontology, and preparing a manuscript on this effort for publication.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#data-package-development",
+    "href": "intro.html#data-package-development",
+    "title": "1  Data Management Plan",
+    "section": "3.4 Data Package Development",
+    "text": "3.4 Data Package Development\nHBR IM has fully adopted the EDI ezEML application for data package development. This cloud-based application was developed by EDI and users are supported by the EDI team and ezEML developer. This application continues to be developed to support emerging LTER/EDI data requirements. Within this system, HBR can store templates for access and re-use of common metadata elements (people, taxonomy, geographic coverage, funding, etc). EzEML also supports a ‘collaboration’ mode, where IM and data creators can work together to complete the full metadata documentation necessary for the repository.\nA separate chapter describes the data package development workflow in detail: HBR Data Package Development.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#data-quality-control",
+    "href": "intro.html#data-quality-control",
+    "title": "1  Data Management Plan",
+    "section": "3.5 Data Quality Control",
+    "text": "3.5 Data Quality Control\nThe HBR research community is widely dispersed among different institutions and laboratories, and data quality control is implemented primarily by the individual researcher. All data packages include methods, wherein detailed data QC protocols can be documented. The HBR-IM works with research teams to document quality control in the data package metadata as appropriate. This may range from descriptions directly in EML, PDF files uploaded with data packages, or cross referencing to details on data QC available elsewhere. IM provides the data submitter with feedback on a number of QC checks that are implemented during the data package development workflow. These include value ranges for data table attributes, coding consistency, and additional issues that are flagged within the ezEML environment and the EDI congruency checker (the final checks during repository upload).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#access-policy",
+    "href": "intro.html#access-policy",
+    "title": "1  Data Management Plan",
+    "section": "3.6 Access Policy",
+    "text": "3.6 Access Policy\nThe HBR data policy follows that of the LTER Data Access Policy, as updated in 2017. (https://lternet.edu/data-access-policy/; Creative Commons license - Attribution - CC BY; https://creativecommons.org/licenses/by/4.0/). All pre-existing HBR data packages have been revised to include this new policy, and the policy is linked on the hubbardbrook.org information management page. The policy reads as follows:\n\nThis information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (“Data User” herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study.\nWhile substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available “as is.” The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#data-access",
+    "href": "intro.html#data-access",
+    "title": "1  Data Management Plan",
+    "section": "3.7 Data Access",
+    "text": "3.7 Data Access\nThe complete inventory of Hubbard Brook data can be browsed, filtered, and searched on the HBR website https://hubbardbrook.org/d/hubbard-brook-data-catalog. Data are also discoverable through both the EDI data portal (https://portal.edirepository.org), through DataONE (https://search.dataone.org), google dataset search (https://datasetsearch.research.google.com/), and through DataCite (https://datacite.org), the entity providing dataset DOIs to EDI. A separate stand-alone document is generated as needed (for proposals and reviews), and describes all HBR data packages in the EDI (and other) repository – Hubbard Brook Data Catalog Inventory.\nAlso see ESRC Computer Resources appendix 1.\nTable 1 outlines software in use by HBR-IM to manage data package development and the Hubbard Brook website.\nTable 1. Features of HBR Information Management System\n\n\n\nFeature\nDetails, software, resources\n\n\n\n\nWebsite: https://hubbardbrook.org\nWordPress, html, css, php, xslt, javascript, apache, piwigo\n\n\nBibliography\nZotero, Zotpress wordpress plugin\n\n\nData Catalog\nEDI data repository, local WordPress gateway to EDI HBR data, EDIutils R\n\n\nMetadata\nezEML, PostgreSQL, EML R package, EML2.1\n\n\nComputer Hardware\nDell Poweredge R510, desktop and laptop linux systems.\n\n\nBackup\nBackupPC, rsnapshot, daily, weekly and monthly backups, on and off-site\n\n\nData management\nR, LibreOffice, QGIS, MySQL, PostgreSQL, git",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#account-access",
+    "href": "intro.html#account-access",
+    "title": "1  Data Management Plan",
+    "section": "3.8 Account access",
+    "text": "3.8 Account access\n\nIM desktop and server\nUNH HB sharepoint\nzotero\nDatabases\npiwigo\nEDI/ezEML",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#samples",
+    "href": "intro.html#samples",
+    "title": "1  Data Management Plan",
+    "section": "5.1 Samples",
+    "text": "5.1 Samples\nIn 1990, an archive facility was built at the Hubbard Brook Experimental Forest to store samples permanently so that they will be available for future research. The 1860 sq. ft. building consists of two rooms: a larger unheated room (30 x 46 ft.) and a smaller room (16 x 30 ft.) heated to just above freezing in the winter. The larger room is uninsulated and is subject to large variations in temperature and humidity; the most scientifically valuable samples are stored in the smaller, insulated, heated room.\nThe archive building now houses approximately 70,000 samples of soil, water, plant tissue, and other materials. Samples are preserved, barcoded, and cataloged with accompanying metadata in a database. This database of bar-coded samples is searchable online at https://data.hubbardbrook.org/samples/. In 2024, both the underlying collection and sample database and the search interface are being restructured. This effort is resulting in improved collection organization and more detailed sample-level metadata.\nRequests for reanalysis of archived samples (e.g. isotopic analyses, heavy metals, etc.) are received periodically, and have resulted in a number of publications.\nA Sample Archive Committee (SAC) was formed in 2013 to address storage space, future direction, priority for continued bar-coding, etc.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#sample-archive-subsampling-policy",
+    "href": "intro.html#sample-archive-subsampling-policy",
+    "title": "1  Data Management Plan",
+    "section": "5.2 Sample Archive Subsampling Policy",
+    "text": "5.2 Sample Archive Subsampling Policy\nHBR shares these archived samples with scientists upon request. As stewards of these samples, our highest priorities are:\n\nto maintain the chemical integrity of these samples;\nto document the use of these samples, and any resulting changes;\ninform principal investigators of interest in using them;\nto acknowledge the appropriate funding sources for their original collection.\n\nDetails on the subsampling of archived material can be found on the sample request form:\nhttps://hubbardbrook.org/sites/default/files/documents/subsampling_request.pdf",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#directions-for-sample-submission",
+    "href": "intro.html#directions-for-sample-submission",
+    "title": "1  Data Management Plan",
+    "section": "5.3 Directions for Sample Submission",
+    "text": "5.3 Directions for Sample Submission\nRequirements for acceptance of samples into the archive:\n\nAdequate documentation must accompany physical samples.\nSamples are stored in either an unheated large room or a smaller room that is heated to just above freezing. The contributing scientist is responsible for deciding that these conditions are suitable for his/her samples.\nSoil samples must be air or oven-dried and stored in plastic or glass bottles with screw caps to ensure a tight seal. Cardboard is not permitted.\nVegetation samples should be dried, ground and stored in clear plastic or glass containers.\nWater samples must be stored in plastic bottles and will be accepted either treated, or not. If treated, the investigator must specify the type and concentration used.\nAll tree logs, cookies and cores should be air-dried and can be stored in cardboard boxes or arranged in a manner that will allow for air to flow between individual samples. Tree cores should be mounted or stored in straws.\nSamples that are considered toxic may be rejected. The data management committee may confer with the SAC about important, but toxic samples requiring storage.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "datapackageworkflow.html",
+    "href": "datapackageworkflow.html",
+    "title": "2  Data Package Workflow: a step-by-step guide to building HBR data packages for EDI",
+    "section": "",
+    "text": "2.1 Overview\nThe purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. HBR data is published in the Environmental Data Initiative Repository (EDI). With the availability of EDI’s ezEML data package builder application (adopted by HBR in 2024), this once long and complicated process has been greatly simplified. ## Data package development workspace The working directory for package development is on the HBR-IM desktop (system name = gromit; linux OS; data package development root directory = gromit:/d1/proj/hbrook/HBRIM/data).\nAssets for each data package are in folders named hbr[pkgid] in the ezEML folder. While most of the workflow occurs in the ezEML environment, this local filesytem is used to handle dataset assets submitted to IM (metadata templates, datafiles, etc). The completed ezEML packages are downloaded (as zip) to this location, for subsequent upload to the EDI staging and production servers. ## Step-by-Step Data Package Workflow In 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. This serves as a way to directly input metadata without first populating a template, reduces IM time on some data packages, and is an important skill-builder for HBR graduate students.\nEzEML provides the capability to store often-used metadata components in a template. For HBR, there is one master template and additional templates for HB projects that are frequent publishers (MELNHE, CRCH). Since the master template is very extensive, it is not cloned as a starting point for a new dataset (which might be a common template use), but instead accessed through the import [creator,geographic,keywords,project,funding] buttons where just selected items are brought into the current dataset.\nThe HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-IM administrator at UNH). This table contains additional information that we use on our local data catalog to enhance user experience (flagging of significant core datasets, more robust LTER Core Research Area assignments that may be missing in older metadata, and a code to categorize datasets and to sort them in the initial catalog view). Data packages are entered in this table as soon as they are identified (in some cases with very long lead times). Upon becoming aware of a dataset, a package id is assigned and the entry initiated with status=anticipated. As soon as data and/or metadata are in-hand, the status is updated to ‘draft’. The table includes packageID, abbreviated title, contact, notes as needed, flagging as long-term core dataset, and EDI submission status.\nThe steps are as follows:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow: a step-by-step guide to building HBR data packages for EDI</span>"
+    ]
+  },
+  {
+    "objectID": "datapackageworkflow.html#overview",
+    "href": "datapackageworkflow.html#overview",
+    "title": "2  Data Package Workflow: a step-by-step guide to building HBR data packages for EDI",
+    "section": "",
+    "text": "- Components for data packages are provided to the IM through a sharepoint dropoff.\n- ezEML collaboration is established if desired for the dataset.\n- A data package is initiated in ezEML with the naming convention of hbr[pkgid]-[shortname].\n* The HBR Master Template (stored in EDI) is used to import people, geographic areas, \nkeywords, projects, and funding.\n* Data tables are loaded from csv.\n* Data table attributes are documented either directly on the online forms or through the \nezEML table entity templating feature (a great timesaver for complex datatables).\n* ezEML data package is downloaded to IM's computer \n* The R script to add QUDT unit annotations is run\n* The annotated eml file is uploaded to portal-s.lternet.edu and the URL is shared with creator for review\n* Subsequent edits are made with creator feedback\n* Data package is approved by the creator\n* Data package is uploaded to the live repository",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow: a step-by-step guide to building HBR data packages for EDI</span>"
+    ]
+  },
+  {
+    "objectID": "datapackageworkflow.html#non-tabular-datasets-images-audio-very-large-datasets-etc",
+    "href": "datapackageworkflow.html#non-tabular-datasets-images-audio-very-large-datasets-etc",
+    "title": "2  Data Package Workflow: a step-by-step guide to building HBR data packages for EDI",
+    "section": "2.2 Non-tabular datasets (images, audio, very large datasets, etc)",
+    "text": "2.2 Non-tabular datasets (images, audio, very large datasets, etc)\nHubbard Brook has published a number of datasets that contain zip files of pdfs, images, audio files, etc. Guidance for preparing these special case datasets can be found in the EML Best Practices document.\n\n2.2.1 Large Datasets\nIn some of these cases, the data entities are quite large and cannot be uploaded with the browser interface (500Mb max), but are within the size cap for online EDI data storage. At the current time, large datasets are staged on a UNH server with the distribution URL set to that location. In some cases we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area. Datasets exceeding the 100Gb threshold are deemed “too large for HTTP” and must be prepared as offline data entities.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow: a step-by-step guide to building HBR data packages for EDI</span>"
+    ]
+  },
+  {
+    "objectID": "datapackageworkflow.html#notes-on-revising-older-datasets.",
+    "href": "datapackageworkflow.html#notes-on-revising-older-datasets.",
+    "title": "2  Data Package Workflow: a step-by-step guide to building HBR data packages for EDI",
+    "section": "2.3 Notes on revising older datasets.",
+    "text": "2.3 Notes on revising older datasets.\nWhen earlier data packages are revised, the starting point is an ezEML fetch of the published data package. Steps are similar to those used for a new dataset, but remember to increment the revision number. Assets for earlier data packages developed can be found in either the ‘EMLassemblyline’ or ‘legacy’ folders, although those files should rarely be necessary once a data package is published in EDI.\nAn EDI fetched dataset may have been developed with a non-ezEML workflow. If that is the case, items requiring attention will be:\n* Creators – delete and import from the template to be sure to get ORCIDs and institution RORs for each person. \nUse the 'sort' function on people import to find them easier in the long list.\n* Project – EMLAL datasets may have funding in 'related funding' or a text string in project abstract. Delete these. \nImport all funding from the template as primary or related. The template will have enhanced information to include grant url, \nfunding agency ROR, etc.\n* Intellectual rights will be correct for all older datasets, but it is best to reset that in ezEML to CC-BY selection.\n* Increment the packageId revision number.\n* Use re-upload datatable if revision includes new or modified data. This all goes well if the table is identical. \nIf there are new columns, upload as a new table and clone metadata from the original, then define any new columns.\nIf the dataset was prepared in EMLAL, clear min/max bounds.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow: a step-by-step guide to building HBR data packages for EDI</span>"
+    ]
+  },
+  {
+    "objectID": "UNH_computer_support.html",
+    "href": "UNH_computer_support.html",
+    "title": "9  Computer Resources",
+    "section": "",
+    "text": "10 IT Resources\nIT support for the UNH IM team is available through the UNH Research Computer Center (RCC). RCC provides support to researchers in the Institute for the Study of Earth, Oceans, and Space, as well as to the wider University research community, State of NH, and Federal Agencies. ESRC has had a long-standing Service Level Agreement (SLA) with RCC (more than 20 years) which can be provided to reviewers upon request. In addition to overall IT support described in the SLA, RCC also provides the personnel for as-needed project support. This gives the HBR-IM team access to expertise for special projects, without the need to provide ongoing support for personnel on the IM team for programming, web design, etc. HBR-IM has also made use of an RCC-funded internship program, wherein computer science undergraduates are paired with researchers in the Institute for Earth, Oceans, and Space.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer Resources</span>"
+    ]
+  },
+  {
+    "objectID": "DataPackageWorkflow.html",
+    "href": "DataPackageWorkflow.html",
+    "title": "2  Data Package Workflow",
+    "section": "",
+    "text": "2.1 Overview\nThe purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. HBR data is published in the Environmental Data Initiative Repository (EDI). With the availability of EDI’s ezEML data package builder application (adopted by HBR in 2024), this once long and complicated process has been greatly simplified.\nIn 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. This serves as a way to directly input metadata without first populating a template, reduces IM time on some data packages, and is an important skill-builder for HBR graduate students.\nEzEML provides the capability to store often-used metadata components in a template. For HBR, there is one master template and additional templates for HB projects that are frequent publishers (MELNHE, HBWaTER, BIRD, CRCH). Since the master template is very extensive, it is not cloned as a starting point for a new dataset (which might be a common template use), but instead accessed through the import [creator, geographic, keywords, project, funding] buttons where just selected items are brought into the current dataset.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataPackageWorkflow.html#overview",
+    "href": "DataPackageWorkflow.html#overview",
+    "title": "2  Data Package Workflow",
+    "section": "",
+    "text": "- Components for data packages are provided to the IM through a sharepoint dropoff.\n- ezEML collaboration is established if desired for the dataset.\n- A data package is initiated in ezEML with the naming convention of hbr[pkgid]-[shortname].\n* The HBR Master Template (stored in EDI) is used to import people, geographic areas, \nkeywords, projects, and funding.\n* Data tables are loaded from csv.\n* Data table attributes are documented either directly on the online forms or through the \nezEML table entity templating feature (a great timesaver for complex datatables).\n* ezEML data package is downloaded to IM's computer \n* The R script to add QUDT unit annotations is run\n* The annotated eml file is uploaded to portal-s.lternet.edu and the URL is shared with creator for review\n* Subsequent edits are made with creator feedback\n* Data package is approved by the creator\n* Data package is uploaded to the live repository",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataPackageWorkflow.html#non-tabular-datasets-images-audio-very-large-datasets-etc",
+    "href": "DataPackageWorkflow.html#non-tabular-datasets-images-audio-very-large-datasets-etc",
+    "title": "2  Data Package Workflow",
+    "section": "2.4 Non-tabular datasets (images, audio, very large datasets, etc)",
+    "text": "2.4 Non-tabular datasets (images, audio, very large datasets, etc)\nHubbard Brook has published a number of datasets that contain zip files of pdfs, images, audio files, etc. Guidance for preparing these special case datasets can be found in the EML Best Practices document.\n\n2.4.1 Large Datasets\nIn some of these cases, the data entities are quite large and cannot be uploaded with the browser interface (500Mb max), but are within the size cap for online EDI data storage. At the current time, large datasets are staged on a UNH server with the distribution URL set to that location. In some cases we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area. Datasets exceeding the 100Gb threshold are deemed “too large for HTTP” and must be prepared as offline data entities.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataPackageWorkflow.html#notes-on-revising-older-datasets.",
+    "href": "DataPackageWorkflow.html#notes-on-revising-older-datasets.",
+    "title": "2  Data Package Workflow",
+    "section": "2.5 Notes on revising older datasets.",
+    "text": "2.5 Notes on revising older datasets.\nWhen earlier data packages are revised, the starting point is an ezEML fetch of the published data package. Steps are similar to those used for a new dataset, but remember to increment the revision number. Assets for earlier data packages developed can be found in either the ‘EMLassemblyline’ or ‘legacy’ folders, although those files should rarely be necessary once a data package is published in EDI.\nAn EDI fetched dataset may have been developed with a non-ezEML workflow. If that is the case, items requiring attention will be:\n\nCreators – delete and import from the template to be sure to get ORCIDs and institution RORs for each person. Use the ‘sort’ function on people import to find them easier in the long list.\nProject – EMLAL datasets may have funding in ‘related funding’ or a text string in project abstract. Delete these. Import all funding from the template as primary or related. The template will have enhanced information to include grant url, funding agency ROR, etc.\nIntellectual rights will be correct for all older datasets, but it is best to reset that in ezEML to CC-BY selection.\nIncrement the packageId revision number.\nUse re-upload datatable if revision includes new or modified data. This all goes well if the table is identical. If there are new columns, upload as a new table and clone metadata from the original, then define any new columns. If the dataset was prepared in EMLAL, clear min/max bounds.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataCatalogWorkflow.html",
+    "href": "DataCatalogWorkflow.html",
+    "title": "3  Data Catalog Workflow",
+    "section": "",
+    "text": "3.1 Overview\nThe purpose of this document is to capture details of the workflow to build a data catalog table that is used on the Hubbard Brook Data Catalog displayed on our website. This workflow has been reconfigured from earlier versions to now read only from publicly available sources - EDI and a public sharepoint file with enhanced data package details. The latter improve the user experience for data searchers by categorizing HBR data and adding robust LTER core area tags.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Catalog Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataCatalogWorkflow.html#database-and-file-access",
+    "href": "DataCatalogWorkflow.html#database-and-file-access",
+    "title": "3  Data Catalog Workflow",
+    "section": "3.2 Database and File access",
+    "text": "3.2 Database and File access\nAccess to dataset details is provided by the LTER PASTA API via the EDIutils R package. The enhanced table resides on the HubbardBrook sharepoint site (HBR IM admin, UNH). The sharepoint data inventory file is maintained to track status of each dataset and to provide additional information that is not included in the formal metadata or may be lacking in very old datasets but is useful in our data catalog (LTER Core Research Area, HBR significant data status)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Catalog Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataCatalogWorkflow.html#step-by-step-catalog-workflow",
+    "href": "DataCatalogWorkflow.html#step-by-step-catalog-workflow",
+    "title": "3  Data Catalog Workflow",
+    "section": "3.3 Step-by-Step Catalog Workflow",
+    "text": "3.3 Step-by-Step Catalog Workflow\n\nRun the code in Appendix A (dataCat.R)\nlog in to the wordpress site\nopen the data catalog table\nupload wptablefeed.csv to replace existing version",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Catalog Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataCatalogWorkflow.html#appendix-a-code-to-build-the-local-hbr-data-catalog",
+    "href": "DataCatalogWorkflow.html#appendix-a-code-to-build-the-local-hbr-data-catalog",
+    "title": "3  Data Catalog Workflow",
+    "section": "3.4 APPENDIX A – Code to build the local HBR data catalog:",
+    "text": "3.4 APPENDIX A – Code to build the local HBR data catalog:\nWill be setting this up in github to replace this snapshot here",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Catalog Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataCatalogWorkflow.html#fetchsarepointdatainventory.r",
+    "href": "DataCatalogWorkflow.html#fetchsarepointdatainventory.r",
+    "title": "3  Data Catalog Workflow",
+    "section": "3.5 FetchSarepointDataInventory.R",
+    "text": "3.5 FetchSarepointDataInventory.R\n##########################################\n# FetchSharepointDataInventory.R\n########################################## \n\nlibrary(httr)\nlibrary(readxl)\n\n# Function to read Excel file from SharePoint URL\nread_sharepoint_excel \\&lt;- function(url) {\n\n# Download the file\nresponse \\&lt;- GET(url, config(ssl_verifypeer = FALSE))\n\n# Check if the download was successful\nif (status_code(response) != 200) {\n  stop(\"Failed to download the file. Status code: \", status_code(response))\n}\n\n# Create a temporary file\ntemp_file \\&lt;- tempfile(fileext = \".xlsx\")\n\n# Write the content to the temporary file\nwriteBin(content(response, \"raw\"), temp_file)\n\n# Read the Excel file\ndf \\&lt;- read_excel(temp_file)\n\n# Remove the temporary file\nunlink(temp_file)\n\nreturn(df)\n\n}\n\n# URL of your SharePoint Excel file\nurl \\&lt;- \"[https://universitysystemnh.sharepoint.com/:x:/t/HubbardBrook/EXFAJdG37VxOsrGI5jMhxmcBc1vTpUnZw1WPtiP3Q5Mc4A?download=1\"](https://universitysystemnh.sharepoint.com/:x:/t/HubbardBrook/EXFAJdG37VxOsrGI5jMhxmcBc1vTpUnZw1WPtiP3Q5Mc4A?download=1\")\n\n# Read the Excel file\ndf \\&lt;- data.frame(read_sharepoint_excel(url))\n\n# subset to just cataloged datasets, save as df 'ps' (for package\nstate)\n\nps=df\\[which(df\\$status==\"cataloged\"),\\]\n\n}",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Catalog Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataPackageWorkflow.html#data-package-development-workspace",
+    "href": "DataPackageWorkflow.html#data-package-development-workspace",
+    "title": "2  Data Package Workflow",
+    "section": "2.2 Data package development workspace",
+    "text": "2.2 Data package development workspace\nThe working directory for package development is on the HBR-IM desktop with the home directory for data package managment identified elsewhere as $DPM_HOME.\nAssets for each data package are in folders named $DPM_HOME/ezEML/hbr[pkgid]. While most of the workflow occurs in the ezEML environment, this local filesytem is used to handle dataset assets submitted to IM (metadata templates, datafiles, etc). The completed ezEML packages are downloaded (as zip) to this location for subsequent upload to the EDI staging and production servers.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataPackageWorkflow.html#step-by-step-data-package-workflow",
+    "href": "DataPackageWorkflow.html#step-by-step-data-package-workflow",
+    "title": "2  Data Package Workflow",
+    "section": "2.3 Step-by-Step Data Package Workflow",
+    "text": "2.3 Step-by-Step Data Package Workflow\nThe HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-IM administrator at UNH). This table contains additional information that we use on our local data catalog to enhance user experience (flagging of significant core datasets, more robust LTER Core Research Area assignments that may be missing in older metadata, and a code to categorize datasets and to sort them in the initial catalog view). Data packages are entered in this table as soon as they are identified (in some cases with very long lead times). Upon becoming aware of a dataset, a package id is assigned and the entry initiated with status=anticipated. As soon as data and/or metadata are in-hand, the status is updated to ‘draft’. The table includes packageID, abbreviated title, contact, notes as needed, flagging as long-term core dataset, and EDI submission status.\nThe steps are as follows:\n\nComponents for data packages are provided to the IM through a sharepoint dropoff.\nezEML collaboration is established if desired for the dataset.\nA data package is initiated in ezEML with the naming convention of hbr[pkgid]-[shortname].\nThe HBR Master Template (stored in EDI) is used to import people, geographic areas, keywords, projects, and funding.\nData tables are loaded from csv.\nData table attributes are documented either directly on the online forms or through the ezEML table entity templating feature (a great timesaver for complex datatables).\nezEML data package is downloaded to IM’s computer\nThe R script to add QUDT unit annotations is run\nThe annotated eml file is uploaded to portal-s.lternet.edu and the URL is shared with creator for review\nSubsequent edits are made with creator feedback\nData package is approved by the creator\nData package is uploaded to the live repository",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataCatalogWorkflow.html#datacat.r",
+    "href": "DataCatalogWorkflow.html#datacat.r",
+    "title": "3  Data Catalog Workflow",
+    "section": "3.6 dataCat.R",
+    "text": "3.6 dataCat.R\n#############################################\n# dataCat.R\n#\n# 20241016\n# Purpose: build a datatable for the HB website local data catalog\n# This is a revised script to generate the data catalog file on the\nwordpress site\n# this revision now runs on all publicly available data - no pw\nprotected databases for local info\n# Inputs are - sharepoint xlsx file that tracks data status locally and\nprovides additional info to enhance user\n# experience in searching for data\n\n# Requirements: The following script is sourced and should be located\nin the same folder as this main script: FetchSharepointDataInventory.R\n\n# Usage: Run this script, then move the wptablefeed.csv file to the\nwebsite and updated the table to refresh to this new version\n\n# Note: once this runs a few times and I gain a little confidence, I\nwill consider adding a command to ftp directly to wordpress to refresh\nthe site\n#############################################\n\nlibrary(EDIutils)\nlibrary(tidyverse)\nlibrary(httr)\nlibrary(\\\"stringr\\\")\nlibrary(xml2)\n\n# set the working directory to the location of the script\nsetwd(dirname(rstudioapi::getActiveDocumentContext()\\$path))\n\n# source the script that gets local package info from sharepoint\nspreadsheet\n\n# returns dataframe ps(package state)\nsource(\\\"FetchSharepointDataInventory.R\\\")\n\n# Fetch the basic eml info directly from EDI for each package\n# consider getting abstract and making that display as a hoverover on\nthe website table\n\nres\\&lt;-search_data_packages(\n\nquery =\n\\\"q=\\*&fq=-scope:ecotrends&fq=scope:knb-lter-hbr&fq=-scope:lter-landsat\\*&fl=id,packageid,doi,title,pubdate,begindate,enddate\\\")\n\nnames(res)=c(\\\"id\\\",\\\"PackageId\\\",\\\"doi\\\",\\\"Title\\\",\\\"pubdate\\\",\\\"begindate\\\",\\\"enddate\\\")\n\nres\\$Title=gsub(\\\"\\[\\\\r\\\\n\\]\\\", \\\" \\\", res\\$Title)\n\nres\\$Title=gsub(\\\"\\\\\\\\s+\\\", \\\" \\\", res\\$Title)\n\n# extract begin and end YEAR\nres\\$startYear=as.POSIXlt(as.Date(res\\$begindate))\\$year + 1900\nres\\$endYear=as.POSIXlt(as.Date(res\\$enddate))\\$year + 1900\n\n# if dataset has start/end dates, create column that shows them with\ndash separator\nres\\$yearrange=\\\"NA\\\"\nres\\$yearrange = paste0(res\\$startYear,\\\" - \\\",res\\$endYear)\n\nindex= grep(\\\"NA\\\",res\\$yearrange)\nres\\$yearrange\\[index\\] = \\\" \\\"\n\n#create the edilink\nres\\$edilink=paste0(\\\"https://portal.edirepository.org/nis/mapbrowse?packageid=\\\",res\\$PackageId)\n\n# Fetch the pesky keywords and authors as xml so you can insert a\nseparator\n\nk\\&lt;-search_data_packages(\n\nquery =\n\\\"q=\\*&fq=-scope:ecotrends&fq=scope:knb-lter-hbr&fq=-scope:lter-landsat\\*&fl=id,packageid,keyword,author\\\",\n\nas = \\\"xml\\\"\n\n)\n\nkw \\&lt;- data.frame(\nPackageId=character(),\nOriginators=character(),\nKeywords=character(),\nstringsAsFactors=FALSE)\n\ncount=1\n\nfor (doc in xml_find_all(k, \\\".//document\\\")) {\n\nprint(doc)\n\n# Get the keywords from the current doc\nkeyword_elements \\&lt;- xml_find_all(doc, \\\".//keyword\\\")\nkeyword_strings \\&lt;- xml_text(keyword_elements)\n\n# This doesn\\'t get the authors where HBWaTER and USFS are institution\nauthors.\n# see solution below to get those from cite.edirepository.org\n\nkw\\[count,3\\] \\&lt;- paste(keyword_strings, collapse = \\\";\\\")\n\n# Get the authors from the current doc\nauthor_elements \\&lt;- xml_find_all(doc, \\\".//author\\\")\nauthor_strings \\&lt;- xml_text(author_elements)\n\nkw\\[count,2\\] \\&lt;- paste(author_strings, collapse = \\\"; \\\")\n\n\\# get the packageid\npid \\&lt;- xml_find_all(doc, \\\".//packageid\\\")\npidstring \\&lt;- xml_text(pid)\nkw\\[count,1\\] \\&lt;- pidstring\ncount=count+1\n\n}\n\n# tidy up keywords where some strings have newlines or consec white\nspaces\nkw\\$Keywords=gsub(\\\"\\[\\\\r\\\\n\\]\\\", \\\" \\\", kw\\$Keywords)\nkw\\$Keywords=gsub(\\\"\\\\\\\\s+\\\", \\\" \\\", kw\\$Keywords)\n\n# merge the tidier keywords with the main table\nresj=merge(res,kw, by = \\\"PackageId\\\")\n\n# get the dataset citations so that you have a nicer listing of authors\n# you could probably do that where I do the keywords now from xml, but\nit doesn\\'t\n\n# populate the records where author is an institution (USFS and\nHBWaTER)\n\nfor(i in 1:dim(resj)\\[1\\]){\n\nprint(i)\n\nCMD=paste0(\\'GET\n(\\\"https://cite.edirepository.org/cite/\\',resj\\[i,1\\],\\'\\\")\\')\n\n# sleep can be removed if you are whitelisted to make rapid EDI queries\nSys.sleep(0.5)\n\nprint(CMD)\n\nc=content(eval(parse( text = CMD )))\n\nprint(c\\$authors)\n\nresj\\[i,\\\"Originators\\\"\\]=c\\$authors\n\n}\n\n# FetchSharepointDataInventory returns ps dataframe (aka package state\nin the originalmetabase database)\n\n# add data category based on sort order codes in ps (local package\nstate table)\n\n# apply category name to sort order values\n\nps\\$category=0\nindex=which(substr(ps\\$pub_notes,1,1)==1)\nps\\$category\\[index\\]=\\\"Hydrometeorology\\\"\nindex=which(substr(ps\\$pub_notes,1,1)==2)\nps\\$category\\[index\\]=\\\"Water Chemistry\\\"\nindex=which(substr(ps\\$pub_notes,1,1)==3)\nps\\$category\\[index\\]=\\\"Soils\\\"\nindex=which(substr(ps\\$pub_notes,1,1)==4)\nps\\$category\\[index\\]=\\\"Vegetation\\\"\nindex=which(substr(ps\\$pub_notes,1,1)==5)\nps\\$category\\[index\\]=\\\"Heterotrophs\\\"\nindex=which(substr(ps\\$pub_notes,1,1)==8)\nps\\$category\\[index\\]=\\\"Documentation\\\"\nindex=which(substr(ps\\$pub_notes,1,1)==9)\nps\\$category\\[index\\]=\\\"Spatial Datasets\\\"\n\n# subset out the columns that are to be used in the datatable\npscat=ps\\[,c(\\\"dataset_archive_id\\\",\\\"category\\\",\\\"ltercore\\\",\\\"pub_notes\\\")\\]\n\n# merge the EDI query dataframe with ps\nm=merge(resj,pscat, by.x=\\\"id\\\",by.y=\\\"dataset_archive_id\\\")\n\n##### Write out wordpress data table \\#################\n\n# pull out the columns needed for website table\nwptablefeed=m\\[,c(\\\"PackageId\\\",\\\"Title\\\",\\\"Originators\\\",\\\"yearrange\\\",\\\"ltercore\\\",\\\"edilink\\\",\\\"category\\\",\\\"pub_notes\\\",\\\"Keywords\\\")\\]\n\n# sort packages based on pub_notes\nwptablefeed.order=wptablefeed\\[order(wptablefeed\\$pub_notes),\\]\n\n# write out the table\nwrite.table(wptablefeed.order,\\\"wptablefeed.csv\\\",row.names=FALSE,sep=\\\",\\\",na=\\\"\n\\\")",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Catalog Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "VoucherSamples.html",
+    "href": "VoucherSamples.html",
+    "title": "6  Voucher Samples",
+    "section": "",
+    "text": "Write overview of the approach taken to find existing voucher samples and how we make these discoverable",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Voucher Samples</span>"
+    ]
+  },
+  {
+    "objectID": "UNH_computer_support.html#account-access",
+    "href": "UNH_computer_support.html#account-access",
+    "title": "9  Computer Resources",
+    "section": "10.2 Account access",
+    "text": "10.2 Account access\nA number of accounts require access for HBR Information Management. In some cases, access can be granted through the UNH Research Computing Center, and in other cloud-based accounts the IM has designated a backup person to have account access.\n\nIM desktop and server [IM/RCC]\nUNH HB sharepoint [IM/Contosta at unh]\nZotero [IM/BU]\nDatabases [IM/RCC]\nPiwigo [IM/RCC]\nEDI/ezEML [IM/EDI]\nJotform [IM/Keeling at Cary]\nBluehost [IM/Post at 6288media]\nGitHub\nhubbardbrook gmail [IM/BU]",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer Resources</span>"
+    ]
+  },
+  {
+    "objectID": "UNH_computer_support.html#appendix-1.-esrcunh-computing-facilities",
+    "href": "UNH_computer_support.html#appendix-1.-esrcunh-computing-facilities",
+    "title": "9  Computer Resources",
+    "section": "10.3 ESRC/UNH Computing Facilities",
+    "text": "10.3 ESRC/UNH Computing Facilities\nThe Earth Systems Research Center’s (ESRC) Science Computing Facility (SCF) has a wide range of computer servers, printers, plotters, archiving systems, software, data archives, and web based data distribution systems that are integrated using several internal networks and connected to the outside world through a high speed pipe. The overall SCF administration is provided by the Research Computing Center (RCC) located in the Institute for the Study of Earth, Oceans and Space (EOS). Scientific data processing and analysis support is distributed throughout workgroups within the center with additional centralized expertise provided by ESRC’s Laboratory for Remote Sensing and Spatial Analysis. RCC’s Lenharth Data Center was upgraded in September 2011. This upgrade brought in new APC UPS units, energy efficient in-rack cooling systems, and monitoring hardware to provide more space and capability for future growth. Within this proposal, we take advantage of this existing computer infrastructure, to meet our anticipated computational needs.\nThe main ESRC servers consist of high-end, multi-processor computing systems manufactured by Dell. The Dell systems run Linux and are used for CPU intensive jobs, parallel modeling, and storage. Backups and archives are done using BackupPC a disk-to-disk based system. Most of the main servers share a gigabit (Gb) switch with the archive/backup system for high-speed communications. All of this equipment is kept within a physically secured, humidity and temperature controlled data center complete with closed circuit video surveillance and a remotely monitored security alarm system. Final data and image products are produced from several ink-jet plotters and laser printers within the department. Additionally, several CD/DVD writers are used for data distribution.\nEOS includes a CRAY XE6m-200 with 132 nodes, over 4000 processors and 160Tb of storage. In addition, our infrastructure has been strategically upgraded to provide gigabit networking to desktops.\nIndividual scientists and research groups have additional computing resources at their disposal. These include dedicated servers, individual workstations, and various peripheral devices. The group servers and individual workstations include: Linux servers and workstations, Windows workstations, Apple Macintosh desktop and laptop computers. All servers, user systems and networked peripheral devices are accessible within EOS through a gigabit ethernet network. Wireless networking is available throughout the building, including access to EduRoam. These systems also have access to both Internet 1 and Internet 2.\nESRC currently houses a 65TB+ geographically referenced data archive used for spatial data processing and analysis. This archive stored on RAID5 data disks served by a series of data servers, houses global, regional and local, Landsat, MODIS, IKONOS, Hyperion, ASTER, and SPOT satellite imagery, land cover classified products, vegetation and other indexes (EVI, LSWI, NDSI, NDVI, NDWI, LAI), aerial photography and GIS vector data layers for use by all projects within the department. Portions of these data, processed data products, and project results archive are disseminated and distributed through several dozen regularly updated and maintained ESRC operated websites. These websites are served through a variety of web servers running Apache web server software supported by other applications and libraries such as Tomcat, Web Mapping Server (WMS), OpenLayers and other geographically enhanced libraries such as GDAL, PROJ4, and GCTP.\nESRC also leverages the center’s Laboratory for Remote Sensing and Spatial Analysis, a spatial information processing, analysis and distribution research laboratory. This laboratory provides geographic information system (GIS), Web Mapping, spatial data archiving, data distribution, remote sensing, image processing, cartography, large format printing and scanning support to several ESRC and EOS research projects. Staffed by professional geo-spatial information technicians, computer programmers, and graduate and undergraduate university students, the laboratory houses a multiple seat Linux, PC, and Mac OS computer cluster supplied with a variety of open source Remote Sensing, GIS, web mapping, image processing and cartography software and ESRI ArcGIS, Leica ERDAS Imagine, and IDL/ENVI, commercial site, block, and individually licensed GIS and Image processing software.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer Resources</span>"
+    ]
+  },
+  {
+    "objectID": "UNH_computer_support.html#software-used-by-im",
+    "href": "UNH_computer_support.html#software-used-by-im",
+    "title": "9  Computer Resources",
+    "section": "10.1 Software used by IM",
+    "text": "10.1 Software used by IM\nTable 1 outlines software in use by HBR-IM to manage data package development and the Hubbard Brook website.\nTable 1. Features of HBR Information Management System\n\n\n\nFeature\nDetails, software, resources\n\n\n\n\nWebsite: https://hubbardbrook.org\nWordPress, html, css, php, xslt, javascript, apache, piwigo\n\n\nBibliography\nZotero, Zotpress wordpress plugin\n\n\nData Catalog\nEDI data repository, local WordPress gateway to EDI HBR data, EDIutils R\n\n\nMetadata\nezEML, PostgreSQL, EML R package, EML2.1\n\n\nComputer Hardware\nDell Poweredge R510, desktop and laptop linux systems.\n\n\nBackup\nBackupPC, rsnapshot, daily, weekly and monthly backups, on and off-site\n\n\nData management\nR, LibreOffice, QGIS, MySQL, PostgreSQL, git",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer Resources</span>"
+    ]
+  },
+  {
+    "objectID": "SampleArchiveDatabase.html",
+    "href": "SampleArchiveDatabase.html",
+    "title": "6  Sample Archive Database",
+    "section": "",
+    "text": "6.1 Overview\nThe sample archive database is managed by the Hubbard Brook USFS. Sample metadata are processed from submission templates (L0) to harmonized tables (L1), to appended files for accessions, collections, and samples (L2). The workflow and products occurs in the USFS Pinyon (BOX) environment. L2 files are staged with URL access for the Rshiny sample search app.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sample Archive Database</span>"
+    ]
+  },
+  {
+    "objectID": "SampleArchiveDatabase.html#templates",
+    "href": "SampleArchiveDatabase.html#templates",
+    "title": "6  Sample Archive Database",
+    "section": "6.2 Templates",
+    "text": "6.2 Templates\nTemplates for submitting a new accession can be found here",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sample Archive Database</span>"
+    ]
+  },
+  {
+    "objectID": "SampleArchiveDatabase.html#rshiny",
+    "href": "SampleArchiveDatabase.html#rshiny",
+    "title": "6  Sample Archive Database",
+    "section": "6.3 Rshiny",
+    "text": "6.3 Rshiny\nThe interface for searching and downloading samples of interest is developed in Rshiny. This app allows search at the collection level and full sample search across all collections.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sample Archive Database</span>"
+    ]
+  },
+  {
+    "objectID": "PublicationMgmt.html",
+    "href": "PublicationMgmt.html",
+    "title": "5  Publication Management",
+    "section": "",
+    "text": "5.1 Overview\nHubbard Brook publications are managed in Zotero.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Management</span>"
+    ]
+  },
+  {
+    "objectID": "PublicationMgmt.html#zotero",
+    "href": "PublicationMgmt.html#zotero",
+    "title": "5  Publication Management",
+    "section": "5.2 Zotero",
+    "text": "5.2 Zotero\nLocal IM desktop, tagging of publications, syncing to zotero cloud",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Management</span>"
+    ]
+  },
+  {
+    "objectID": "PublicationMgmt.html#edi-publication-data-linkages",
+    "href": "PublicationMgmt.html#edi-publication-data-linkages",
+    "title": "5  Publication Management",
+    "section": "5.3 EDI publication-data linkages",
+    "text": "5.3 EDI publication-data linkages\nHow this happens, reports we can generate from this",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Management</span>"
+    ]
+  },
+  {
+    "objectID": "PublicationMgmt.html#zotpress",
+    "href": "PublicationMgmt.html#zotpress",
+    "title": "5  Publication Management",
+    "section": "5.4 Zotpress",
+    "text": "5.4 Zotpress\nto display pubs on the people profile pages on website",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Management</span>"
+    ]
+  },
+  {
+    "objectID": "RAC_proposals.html",
+    "href": "RAC_proposals.html",
+    "title": "7  RAC Proposal Submissions",
+    "section": "",
+    "text": "7.1 Overview\nThe",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>RAC Proposal Submissions</span>"
+    ]
+  },
+  {
+    "objectID": "RAC_proposals.html#templates",
+    "href": "RAC_proposals.html#templates",
+    "title": "6  Sample Archive Database",
+    "section": "6.2 Templates",
+    "text": "6.2 Templates",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sample Archive Database</span>"
+    ]
+  },
+  {
+    "objectID": "RAC_proposals.html#rshiny",
+    "href": "RAC_proposals.html#rshiny",
+    "title": "6  Sample Archive Database",
+    "section": "6.3 Rshiny",
+    "text": "6.3 Rshiny",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sample Archive Database</span>"
+    ]
+  },
+  {
+    "objectID": "RAC_proposals.html#access",
+    "href": "RAC_proposals.html#access",
+    "title": "7  RAC Proposal Submissions",
+    "section": "7.2 Access",
+    "text": "7.2 Access",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>RAC Proposal Submissions</span>"
+    ]
+  },
+  {
+    "objectID": "HBR_dataInventory.html",
+    "href": "HBR_dataInventory.html",
+    "title": "4  Data Inventory",
+    "section": "",
+    "text": "A spreadsheet listing a complete inventory of HBR data, including datasets anticipated and in draft format, is maintained on the UNH HubbardBrook sharepoint site. Access to this sheet is shared by request. This is used to build the local data catalog by merging with content from the LTER PASTA API. It is also used by IM as a local record of what is published, as well as those datasets anticipated, in draft format, or staged for review. The emlWorkflow is used to identify datasets developed by earlier workflows that could be updated to include eml elements not available at time of publication (improved funding metadata, general annotations, qudt unit annotations). The checkbox columns for HBR_V were used to modify our data table listing (proposal supplemental document), by highlighting data used in papers during that funding cycle and data used in the top10 publications that we highlighted in the proposal.\nShared access to this data inventory table is view-only. Edits to the table are limited to the site IM team. In view-only mode, some useful search/filter includes filtering by project ID (used in the ‘nickname’), by dataset status, core research area, etc. This provides a comprehensive look at our data holdings to include datasets currently under development as well as those anticipated on a longer timeline.\n\nDataSetID: just the pkg number\ndataset_archive_id: packageId (knb-lter-hbr.XXX)\nrev: revision number\nnickname: a short name for the dataset\n\nstatus: dropdown choice of anticipated, draft, staged, cataloged, deprecated, embargoed\nemlWorkflow: legacy, EMLAL, ezEML, mmb (minimetabase)\nnotes\npub_notes\ndbupdatetime:carryover from mmb\n\nupdate_date_catalog: date of last published revision\n\nwho2bug: contacts\nin pasta: binary 0/1 to indicate published\n\nsignature: do we consider this a core HB longterm dataset\nltercore: core research areas (DP(disturbance process),IM(inorganic matter),OM(organic matter),PP(primary production),PS(population study)\n\nhbr_vcited: data cited in HBR-V publications\n\nhbr_vtop10: data cited in HBR-V top 10 publications",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Inventory</span>"
+    ]
+  },
+  {
+    "objectID": "Templates.html",
+    "href": "Templates.html",
+    "title": "8  Templates",
+    "section": "",
+    "text": "8.1 Email",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "Templates.html#rshiny",
+    "href": "Templates.html#rshiny",
+    "title": "8  Templates",
+    "section": "8.2 Rshiny",
+    "text": "8.2 Rshiny",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "Templates.html#data-submission-template",
+    "href": "Templates.html#data-submission-template",
+    "title": "8  Templates",
+    "section": "8.2 Data Submission Template",
+    "text": "8.2 Data Submission Template",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "Templates.html#sample-archive-submission-template",
+    "href": "Templates.html#sample-archive-submission-template",
+    "title": "8  Templates",
+    "section": "8.3 Sample Archive Submission Template",
+    "text": "8.3 Sample Archive Submission Template",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "Templates.html#email",
+    "href": "Templates.html#email",
+    "title": "8  Templates",
+    "section": "",
+    "text": "Confirm addition to listserv, invite to have a profile page, introduce IM support\nAccess Email template\nIM introduction following RAC proposal acceptance",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "UNH_computer_support.html#computer-resources",
+    "href": "UNH_computer_support.html#computer-resources",
+    "title": "9  Computer Resources",
+    "section": "10.3 Computer Resources",
+    "text": "10.3 Computer Resources\nThe Earth Systems Research Center’s (ESRC) Science Computing Facility (SCF) has a wide range of computer servers, printers, plotters, archiving systems, software, data archives, and web based data distribution systems that are integrated using several internal networks and connected to the outside world through a high speed pipe. The overall SCF administration is provided by the Research Computing Center (RCC) located in the Institute for the Study of Earth, Oceans and Space (EOS). Scientific data processing and analysis support is distributed throughout workgroups within the center with additional centralized expertise provided by ESRC’s Laboratory for Remote Sensing and Spatial Analysis. RCC’s Lenharth Data Center was upgraded in September 2011. This upgrade brought in new APC UPS units, energy efficient in-rack cooling systems, and monitoring hardware to provide more space and capability for future growth. Within this proposal, we take advantage of this existing computer infrastructure, to meet our anticipated computational needs.\nThe main ESRC servers consist of high-end, multi-processor computing systems manufactured by Dell. The Dell systems run Linux and are used for CPU intensive jobs, parallel modeling, and storage. Backups and archives are done using BackupPC a disk-to-disk based system. Most of the main servers share a gigabit (Gb) switch with the archive/backup system for high-speed communications. All of this equipment is kept within a physically secured, humidity and temperature controlled data center complete with closed circuit video surveillance and a remotely monitored security alarm system. Final data and image products are produced from several ink-jet plotters and laser printers within the department. Additionally, several CD/DVD writers are used for data distribution.\nEOS includes a CRAY XE6m-200 with 132 nodes, over 4000 processors and 160Tb of storage. In addition, our infrastructure has been strategically upgraded to provide gigabit networking to desktops.\nIndividual scientists and research groups have additional computing resources at their disposal. These include dedicated servers, individual workstations, and various peripheral devices. The group servers and individual workstations include: Linux servers and workstations, Windows workstations, Apple Macintosh desktop and laptop computers. All servers, user systems and networked peripheral devices are accessible within EOS through a gigabit ethernet network. Wireless networking is available throughout the building, including access to EduRoam. These systems also have access to both Internet 1 and Internet 2.\nESRC currently houses a 65TB+ geographically referenced data archive used for spatial data processing and analysis. This archive stored on RAID5 data disks served by a series of data servers, houses global, regional and local, Landsat, MODIS, IKONOS, Hyperion, ASTER, and SPOT satellite imagery, land cover classified products, vegetation and other indexes (EVI, LSWI, NDSI, NDVI, NDWI, LAI), aerial photography and GIS vector data layers for use by all projects within the department. Portions of these data, processed data products, and project results archive are disseminated and distributed through several dozen regularly updated and maintained ESRC operated websites. These websites are served through a variety of web servers running Apache web server software supported by other applications and libraries such as Tomcat, Web Mapping Server (WMS), OpenLayers and other geographically enhanced libraries such as GDAL, PROJ4, and GCTP.\nESRC also leverages the center’s Laboratory for Remote Sensing and Spatial Analysis, a spatial information processing, analysis and distribution research laboratory. This laboratory provides geographic information system (GIS), Web Mapping, spatial data archiving, data distribution, remote sensing, image processing, cartography, large format printing and scanning support to several ESRC and EOS research projects. Staffed by professional geo-spatial information technicians, computer programmers, and graduate and undergraduate university students, the laboratory houses a multiple seat Linux, PC, and Mac OS computer cluster supplied with a variety of open source Remote Sensing, GIS, web mapping, image processing and cartography software and ESRI ArcGIS, Leica ERDAS Imagine, and IDL/ENVI, commercial site, block, and individually licensed GIS and Image processing software.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer Resources</span>"
+    ]
+  }
+]

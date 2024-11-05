@@ -1,0 +1,13 @@
+# Sample Archive Database
+
+## Overview
+
+The sample archive database is managed by the Hubbard Brook USFS. Sample metadata are processed from submission templates (L0) to harmonized tables (L1), to appended files for accessions, collections, and samples (L2). The workflow and products occurs in the USFS Pinyon (BOX) environment. L2 files are staged with URL access for the Rshiny sample search app.
+
+## Templates
+
+Templates for submitting a new accession can be found [here](link)
+
+## Rshiny
+
+The interface for searching and downloading samples of interest is developed in Rshiny. This app allows search at the collection level and full sample search across all collections.

@@ -1,0 +1,23 @@
+# Preface {.unnumbered}
+
+This collection of documentation contains details on Information Management for the Hubbard Brook Experimental Forest. Data are managed by both the USDA Forest Service (USFS) and the Information Manager for the Hubbard Brook LTER site (one of 25+ sites funded by NSF's Long-term Ecological Research program).
+
+In addition to an overview of information management at HBR, we include supplemental chapters and associated documents covering more dynamic details such as inventory/status of data packages, current IM projects and timelines, a guide to the operation of the HBR website, and a step-by-step guide to the development of HBR data packages and associated local data catalog. This document is revised periodically to reflect changes in IM assets, status, workflows, etc.
+
+
+Throughout these pages you will encounter a number of acronyms. They are typically identified before first use within a chapter...but just in case:
+
+- EDI: Environmental Data Initiative\
+- EML: Ecological Metadata Language\
+- ESRC: Earth Systems Research Center\
+- HBEF: Hubbard Brook Experimental Forest\
+- HBR: Acronym for the Hubbard Brook LTER\
+- LTER: Long-term Ecological Research\
+- LNO: LTER Network Office\
+- PASTA:\
+- RAC: Research Advisory Committee\
+- RCC: Research Computing Center\
+- USFS: USDA Forest Service\
+- UNH: University of New Hampshire\
+- WMNF: White Mountain National Forest\
+

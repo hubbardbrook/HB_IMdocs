@@ -1,0 +1,43 @@
+project:
+  type: book
+
+book:
+  title: "Hubbard Brook Information Management Documents"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - DataPackageWorkflow.qmd
+    - DataCatalogWorkflow.qmd
+    - HBR_dataInventory.qmd
+    - PublicationMgmt.qmd
+    - SampleArchiveDatabase.qmd
+    - RAC_proposals.qmd
+    - Templates.qmd
+    - UNH_computer_support.qmd
+    - references.qmd
+  sidebar:
+    logo: 'HBESlogo.png'
+
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    include-in-header:
+      text: |
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            var sidebar = document.getElementById('quarto-sidebar');
+            var logo = sidebar.getElementsByTagName('img')[0];
+            
+            sidebar.appendChild(logo);
+          });
+        </script>
+   
+    css: styles.css
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
