@@ -241,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="step-by-step-data-package-workflow" class="level2" data-number="2.3">
 <h2 data-number="2.3" class="anchored" data-anchor-id="step-by-step-data-package-workflow"><span class="header-section-number">2.3</span> Step-by-Step Data Package Workflow</h2>
-<p>The HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-IM administrator at UNH). This table contains additional information that we use on our local data catalog to enhance user experience (flagging of significant core datasets, more robust LTER Core Research Area assignments that may be missing in older metadata, and a code to categorize datasets and to sort them in the initial catalog view). Data packages are entered in this table as soon as they are identified (in some cases with very long lead times). Upon becoming aware of a dataset, a package id is assigned and the entry initiated with status=anticipated. As soon as data and/or metadata are in-hand, the status is updated to ‘draft’. The table includes packageID, abbreviated title, contact, notes as needed, flagging as long-term core dataset, and EDI submission status.</p>
+<p>The HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-IM administrator at UNH). This table contains additional information that we use on our local data catalog to enhance user experience (flagging of significant core datasets, more robust LTER Core Research Area assignments that may be missing in older metadata, and a code to categorize datasets and to sort them in the initial catalog view). Data packages are entered in this table as soon as they are identified (in some cases with very long lead times). Upon becoming aware of a dataset, a package id is assigned and the entry initiated with status=anticipated. As soon as data and/or metadata are in-hand, the status is updated to ‘draft’, ‘cataloged’ when published, and ‘embargoed’ if published with a temporary embargo. The table includes packageID, abbreviated title, contact, notes as needed, flagging as long-term core dataset, and EDI submission status.</p>
 <p>The steps are as follows:</p>
 <ul>
 <li>Components for data packages are provided to the IM through a sharepoint dropoff.</li>
@@ -263,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Hubbard Brook has published a number of datasets that contain zip files of pdfs, images, audio files, etc. Guidance for preparing these special case datasets can be found in the <a href="https://ediorg.github.io/data-package-best-practices/data-package-design-for-special-cases.html">EML Best Practices document</a>.</p>
 <section id="large-datasets" class="level3" data-number="2.4.1">
 <h3 data-number="2.4.1" class="anchored" data-anchor-id="large-datasets"><span class="header-section-number">2.4.1</span> Large Datasets</h3>
-<p>In some of these cases, the data entities are quite large and cannot be uploaded with the browser interface (500Mb max), but are within the size cap for online EDI data storage. At the current time, large datasets are staged on a UNH server with the distribution URL set to that location. In some cases we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area. Datasets exceeding the 100Gb threshold are deemed “too large for HTTP” and must be prepared as offline data entities.</p>
+<p>In some of these cases, the data entities are quite large and cannot be uploaded with the browser interface (500Mb max), but are within the size cap for online EDI online data storage. Eatasets exceeding the 100Gb threshold are deemed “too large for HTTP” and must be prepared as offline data entities. At the current time, large datasets are staged on a UNH server with the ezEML distribution URL set to that location. In some cases we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area.</p>
 </section>
 </section>
 <section id="notes-on-revising-older-datasets." class="level2" data-number="2.5">
@@ -280,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="forest-service-data-workflow" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Forest Service Data Workflow</h1>
-<p>The staff at the Hubbard Brook Experimental Forest manage the entire data lifecycle for many of the long-term datasets, These include hydrology, meteorology, phenology, and others. These data are prepared for the EDI repository using EDI’s EML Assemblyline workflow.</p>
+<p>The staff at the Hubbard Brook Experimental Forest manage the entire data lifecycle for many of the long-term datasets. These include hydrology, meteorology, phenology, and others. These data are prepared for the EDI repository using EDI’s EML Assemblyline workflow.</p>
 
 
 </section>
