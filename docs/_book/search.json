@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "DataPackageWorkflow.html",
+    "href": "DataPackageWorkflow.html",
+    "title": "2  Data Package Workflow",
+    "section": "",
+    "text": "2.1 Overview\nThe purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. HBR data is published in the Environmental Data Initiative Repository (EDI). With the availability of EDI’s ezEML data package builder application (adopted by HBR in 2024), this once long and complicated process has been greatly simplified.\nIn 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. This serves as a way to directly input metadata without first populating a template, reduces IM time on some data packages, and is an important skill-builder for HBR graduate students.\nEzEML provides the capability to store often-used metadata components in a template. For HBR, there is one master template and additional templates for HB projects that are frequent publishers (MELNHE, HBWaTER, BIRD, CRCH). Since the master template is very extensive, it is not cloned as a starting point for a new dataset (which might be a common template use), but instead accessed through the import [creator, geographic, keywords, project, funding] buttons where just selected items are brought into the current dataset.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataPackageWorkflow.html#data-package-development-workspace",
+    "href": "DataPackageWorkflow.html#data-package-development-workspace",
+    "title": "2  Data Package Workflow",
+    "section": "2.2 Data package development workspace",
+    "text": "2.2 Data package development workspace\nThe working directory for package development is on the HBR-IM desktop with the home directory for data package managment identified elsewhere as $DPM_HOME.\nAssets for each data package are in folders named $DPM_HOME/ezEML/hbr[pkgid]. While most of the workflow occurs in the ezEML environment, this local filesytem is used to handle dataset assets submitted to IM (metadata templates, datafiles, etc). The completed ezEML packages are downloaded (as zip) to this location for subsequent upload to the EDI staging and production servers.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataPackageWorkflow.html#step-by-step-data-package-workflow",
+    "href": "DataPackageWorkflow.html#step-by-step-data-package-workflow",
+    "title": "2  Data Package Workflow",
+    "section": "2.3 Step-by-Step Data Package Workflow",
+    "text": "2.3 Step-by-Step Data Package Workflow\nThe HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-IM administrator at UNH). This table contains additional information that we use on our local data catalog to enhance user experience (flagging of significant core datasets, more robust LTER Core Research Area assignments that may be missing in older metadata, and a code to categorize datasets and to sort them in the initial catalog view). Data packages are entered in this table as soon as they are identified (in some cases with very long lead times). Upon becoming aware of a dataset, a package id is assigned and the entry initiated with status=anticipated. As soon as data and/or metadata are in-hand, the status is updated to ‘draft’, ‘cataloged’ when published, and ‘embargoed’ if published with a temporary embargo. The table includes packageID, abbreviated title, contact, notes as needed, flagging as long-term core dataset, and EDI submission status.\nThe steps are as follows:\n\nComponents for data packages are provided to the IM through a sharepoint dropoff.\nezEML collaboration is established if desired for the dataset.\nA data package is initiated in ezEML with the naming convention of hbr[pkgid]-[shortname].\nThe HBR Master Template (stored in EDI) is used to import people, geographic areas, keywords, projects, and funding.\nData tables are loaded from csv.\nData table attributes are documented either directly on the online forms or through the ezEML table entity templating feature (a great timesaver for complex datatables).\nezEML data package is downloaded to IM’s computer\nThe R script to add QUDT unit annotations is run\nThe annotated eml file is uploaded to portal-s.lternet.edu and the URL is shared with creator for review\nSubsequent edits are made with creator feedback\nData package is approved by the creator\nData package is uploaded to the live repository",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataPackageWorkflow.html#non-tabular-datasets-images-audio-very-large-datasets-etc",
+    "href": "DataPackageWorkflow.html#non-tabular-datasets-images-audio-very-large-datasets-etc",
+    "title": "2  Data Package Workflow",
+    "section": "2.4 Non-tabular datasets (images, audio, very large datasets, etc)",
+    "text": "2.4 Non-tabular datasets (images, audio, very large datasets, etc)\nHubbard Brook has published a number of datasets that contain zip files of pdfs, images, audio files, etc. Guidance for preparing these special case datasets can be found in the EML Best Practices document.\n\n2.4.1 Large Datasets\nIn some of these cases, the data entities are quite large and cannot be uploaded with the browser interface (500Mb max), but are within the size cap for online EDI online data storage. Eatasets exceeding the 100Gb threshold are deemed “too large for HTTP” and must be prepared as offline data entities. At the current time, large datasets are staged on a UNH server with the ezEML distribution URL set to that location. In some cases we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "DataPackageWorkflow.html#notes-on-revising-older-datasets.",
+    "href": "DataPackageWorkflow.html#notes-on-revising-older-datasets.",
+    "title": "2  Data Package Workflow",
+    "section": "2.5 Notes on revising older datasets.",
+    "text": "2.5 Notes on revising older datasets.\nWhen earlier data packages are revised, the starting point is an ezEML fetch of the published data package. Steps are similar to those used for a new dataset, but remember to increment the revision number. Assets for earlier data packages developed can be found in either the ‘EMLassemblyline’ or ‘legacy’ folders, although those files should rarely be necessary once a data package is published in EDI.\nAn EDI fetched dataset may have been developed with a non-ezEML workflow. If that is the case, items requiring attention will be:\n\nCreators – delete and import from the template to be sure to get ORCIDs and institution RORs for each person. Use the ‘sort’ function on people import to find them easier in the long list.\nProject – EMLAL datasets may have funding in ‘related funding’ or a text string in project abstract. Delete these. Import all funding from the template as primary or related. The template will have enhanced information to include grant url, funding agency ROR, etc.\nIntellectual rights will be correct for all older datasets, but it is best to reset that in ezEML to CC-BY selection.\nIncrement the packageId revision number.\nUse re-upload datatable if revision includes new or modified data. This all goes well if the table is identical. If there are new columns, upload as a new table and clone metadata from the original, then define any new columns. If the dataset was prepared in EMLAL, clear min/max bounds.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Package Workflow</span>"
+    ]
+  }
+]
