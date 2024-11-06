@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.2)  5 NOV 2024 12:35
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.2)  6 NOV 2024 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,7 +1103,7 @@ chapter 10.
 [21
 
 ]
-Overfull \hbox (996.17587pt too wide) in paragraph at lines 961--961
+Overfull \hbox (996.17587pt too wide) in paragraph at lines 963--963
 []\TU/lmtt/m/n/10.95 url \<- "[https://universitysystemnh.sharepoint.com/:x:/t/
 HubbardBrook/EXFAJdG37VxOsrGI5jMhxmcBc1vTpUnZw1WPtiP3Q5Mc4A?download=1"](https:
 //universitysystemnh.sharepoint.com/:x:/t/HubbardBrook/EXFAJdG37VxOsrGI5jMhxmcB
@@ -1111,44 +1111,44 @@ c1vTpUnZw1WPtiP3Q5Mc4A?download=1")[]
  []
 
 [22] [23]
-Overfull \hbox (289.07979pt too wide) in paragraph at lines 1159--1159
+Overfull \hbox (289.07979pt too wide) in paragraph at lines 1161--1161
 []\TU/lmtt/m/n/10.95 \"q=\*&fq=-scope:ecotrends&fq=scope:knb-lter-hbr&fq=-scope
 :lter-landsat\*&fl=id,packageid,doi,title,pubdate,begindate,enddate\")[] 
  []
 
 
-Overfull \hbox (70.62735pt too wide) in paragraph at lines 1159--1159
+Overfull \hbox (70.62735pt too wide) in paragraph at lines 1161--1161
 []\TU/lmtt/m/n/10.95 names(res)=c(\"id\",\"PackageId\",\"doi\",\"Title\",\"pubd
 ate\",\"begindate\",\"enddate\")[] 
  []
 
 
-Overfull \hbox (110.86856pt too wide) in paragraph at lines 1159--1159
+Overfull \hbox (110.86856pt too wide) in paragraph at lines 1161--1161
 []\TU/lmtt/m/n/10.95 res\$edilink=paste0(\"https://portal.edirepository.org/nis
 /mapbrowse?packageid=\",res\$PackageId)[] 
  []
 
 
-Overfull \hbox (168.35606pt too wide) in paragraph at lines 1159--1159
+Overfull \hbox (168.35606pt too wide) in paragraph at lines 1161--1161
 []\TU/lmtt/m/n/10.95 \"q=\*&fq=-scope:ecotrends&fq=scope:knb-lter-hbr&fq=-scope
 :lter-landsat\*&fl=id,packageid,keyword,author\",[] 
  []
 
 [24] [25] [26]
-Overfull \hbox (1.64235pt too wide) in paragraph at lines 1159--1159
+Overfull \hbox (1.64235pt too wide) in paragraph at lines 1161--1161
 []\TU/lmtt/m/n/10.95 pscat=ps\[,c(\"dataset_archive_id\",\"category\",\"ltercor
 e\",\"pub_notes\")\][] 
  []
 
 
-Overfull \hbox (352.31604pt too wide) in paragraph at lines 1159--1159
+Overfull \hbox (352.31604pt too wide) in paragraph at lines 1161--1161
 []\TU/lmtt/m/n/10.95 wptablefeed=m\[,c(\"PackageId\",\"Title\",\"Originators\",
 \"yearrange\",\"ltercore\",\"edilink\",\"category\",\"pub_notes\",\"Keywords\")
 \][] 
  []
 
 
-Overfull \hbox (18.8886pt too wide) in paragraph at lines 1159--1159
+Overfull \hbox (18.8886pt too wide) in paragraph at lines 1161--1161
 []\TU/lmtt/m/n/10.95 write.table(wptablefeed.order,\"wptablefeed.csv\",row.name
 s=FALSE,sep=\",\",na=\"[] 
  []
@@ -1156,12 +1156,7 @@ s=FALSE,sep=\",\",na=\"[]
 [27]
 chapter 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1196--1198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1207--1209
+Underfull \hbox (badness 10000) in paragraph at lines 1198--1200
 
  []
 
@@ -1171,19 +1166,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1209--1211
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1215
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1217--1221
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1223
 
  []
 
 [28
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1225
 
  []
 
@@ -1219,7 +1219,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1471 \end{CSLReferences}
+l.1473 \end{CSLReferences}
                            
 Here is how much of TeX's memory you used:
  23612 strings out of 478682

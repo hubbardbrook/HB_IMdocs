@@ -757,9 +757,10 @@ view). Data packages are entered in this table as soon as they are
 identified (in some cases with very long lead times). Upon becoming
 aware of a dataset, a package id is assigned and the entry initiated
 with status=anticipated. As soon as data and/or metadata are in-hand,
-the status is updated to `draft'. The table includes packageID,
-abbreviated title, contact, notes as needed, flagging as long-term core
-dataset, and EDI submission status.
+the status is updated to `draft', `cataloged' when published, and
+`embargoed' if published with a temporary embargo. The table includes
+packageID, abbreviated title, contact, notes as needed, flagging as
+long-term core dataset, and EDI submission status.
 
 The steps are as follows:
 
@@ -810,12 +811,13 @@ Best Practices document}.
 
 In some of these cases, the data entities are quite large and cannot be
 uploaded with the browser interface (500Mb max), but are within the size
-cap for online EDI data storage. At the current time, large datasets are
-staged on a UNH server with the distribution URL set to that location.
-In some cases we develop packages using a smaller placeholder file so
-that we do not overload storage on the ezEML platform or portal-s
-staging area. Datasets exceeding the 100Gb threshold are deemed ``too
-large for HTTP'' and must be prepared as offline data entities.
+cap for online EDI online data storage. Eatasets exceeding the 100Gb
+threshold are deemed ``too large for HTTP'' and must be prepared as
+offline data entities. At the current time, large datasets are staged on
+a UNH server with the ezEML distribution URL set to that location. In
+some cases we develop packages using a smaller placeholder file so that
+we do not overload storage on the ezEML platform or portal-s staging
+area.
 
 \section{Notes on revising older
 datasets.}\label{notes-on-revising-older-datasets.}
@@ -860,7 +862,7 @@ workflow. If that is the case, items requiring attention will be:
 Workflow}\label{forest-service-data-workflow}
 
 The staff at the Hubbard Brook Experimental Forest manage the entire
-data lifecycle for many of the long-term datasets, These include
+data lifecycle for many of the long-term datasets. These include
 hydrology, meteorology, phenology, and others. These data are prepared
 for the EDI repository using EDI's EML Assemblyline workflow.
 
