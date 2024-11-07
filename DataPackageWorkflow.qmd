@@ -53,6 +53,6 @@ An EDI fetched dataset may have been developed with a non-ezEML workflow. If tha
 -   Increment the packageId revision number.
 -   Use re-upload datatable if revision includes new or modified data. This all goes well if the table is identical. If there are new columns, upload as a new table and clone metadata from the original, then define any new columns. If the dataset was prepared in EMLAL, clear min/max bounds.
 
-# Forest Service Data Workflow
+## Forest Service Data Workflow
 
 The staff at the Hubbard Brook Experimental Forest manage the entire data lifecycle for many of the long-term datasets. These include hydrology, meteorology, phenology, and others. These data are prepared for the EDI repository using EDI's EML Assemblyline workflow.
