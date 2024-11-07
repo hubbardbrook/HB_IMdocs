@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>4&nbsp; Data Inventory – Hubbard Brook Information Management Documents</title>
+<title>10&nbsp; Publication Status Reports – Hubbard Brook Information Management Documents</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./PublicationMgmt.html" rel="next">
-<link href="./DataCatalogWorkflow.html" rel="prev">
+<link href="./Templates.html" rel="next">
+<link href="./DataStatusReports.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -90,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HBR_dataInventory.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data Inventory</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./PublicationStatusReports.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Publication Status Reports</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -144,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./HBR_dataInventory.html" class="sidebar-item-text sidebar-link active">
+  <a href="./HBR_dataInventory.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data Inventory</span></span></a>
   </div>
 </li>
@@ -180,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./PublicationStatusReports.html" class="sidebar-item-text sidebar-link">
+  <a href="./PublicationStatusReports.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Publication Status Reports</span></span></a>
   </div>
 </li>
@@ -215,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data Inventory</span></h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Publication Status Reports</span></h1>
 </div>
 
 
@@ -232,26 +232,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A spreadsheet listing a complete inventory of HBR data, including datasets anticipated and in draft format, is maintained on the UNH HubbardBrook sharepoint site. Access to this sheet is shared by request. This is used to build the local data catalog by merging with content from the EDI PASTA+ API. It is also used by IM as a local record of what is published, as well as those datasets anticipated, in draft format, or staged for review. The emlWorkflow is used to identify datasets developed by earlier workflows that could be updated to include eml elements not available at time of publication (improved funding metadata, general annotations, qudt unit annotations). The checkbox columns for HBR_V were used to modify our data table listing (proposal supplemental document), by highlighting data used in papers during that funding cycle and data used in the top10 publications that we highlighted in the proposal.</p>
-<p>Shared access to this data inventory table is view-only. Edits to the table are limited to the site IM team. In view-only mode, some useful search/filter includes filtering by project ID (used in the ‘nickname’), by dataset status, core research area, etc. This provides a comprehensive look at our data holdings to include datasets currently under development as well as those anticipated on a longer timeline.</p>
-<ul>
-<li>DataSetID: just the pkg number</li>
-<li>dataset_archive_id: packageId (knb-lter-hbr.XXX) assigned by IM</li>
-<li>rev: revision number</li>
-<li>nickname: a short name for the dataset</li>
-<li>status: dropdown choice of anticipated, draft, staged, cataloged, deprecated, embargoed</li>
-<li>emlWorkflow: legacy, EMLAL, ezEML, mmb (minimetabase)</li>
-<li>notes</li>
-<li>pub_notes</li>
-<li>dbupdatetime: carryover from mmb</li>
-<li>update_date_catalog: date of last published revision</li>
-<li>who2bug: contacts</li>
-<li>in pasta: binary 0/1 to indicate published</li>
-<li>signature: do we consider this a core HB longterm dataset</li>
-<li>ltercore: core research areas (DP(disturbance process),IM(inorganic matter),OM(organic matter),PP(primary production),PS(population study)</li>
-<li>hbr_vcited: data cited in HBR-V publications</li>
-<li>hbr_vtop10: data cited in HBR-V top 10 publications</li>
-</ul>
+<p>This section will describe the reporting we do on publications and link to GitHub repo with scripts as well as current versions of output</p>
 
 
 
@@ -678,13 +659,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./DataCatalogWorkflow.html" class="pagination-link" aria-label="Data Catalog Workflow">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data Catalog Workflow</span></span>
+      <a href="./DataStatusReports.html" class="pagination-link" aria-label="Data Status Reports">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Data Status Reports</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./PublicationMgmt.html" class="pagination-link" aria-label="Publication Management">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Publication Management</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Templates.html" class="pagination-link" aria-label="Templates">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Templates</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

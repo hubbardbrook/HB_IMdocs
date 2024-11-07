@@ -13,6 +13,8 @@ book:
     - SampleArchiveDatabase.qmd
     - VoucherSamples.qmd
     - RAC_proposals.qmd
+    - DataStatusReports.qmd
+    - PublicationStatusReports.qmd
     - Templates.qmd
     - UNH_computer_support.qmd
     - references.qmd
