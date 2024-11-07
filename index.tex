@@ -341,9 +341,7 @@ Hubbard Brook. Researchers approved by the RAC are encouraged to submit
 data to be included in the Hubbard Brook Data Catalog, regardless of
 funding source.
 
-\bookmarksetup{startatroot}
-
-\chapter{Personnel}\label{personnel}
+\section{Personnel}\label{personnel}
 
 Hubbard Brook LTER Information management transitioned from the Forest
 Service to the HBR LTER grant in the HBR-V funding cycle (2010-2016).
@@ -362,11 +360,9 @@ See also IT resources for as-needed project support (Section 4) and
 Appendix 1 for a description of as-needed support from the ESRC
 \emph{Laboratory for Remote Sensing and Spatial Analysis.}
 
-\bookmarksetup{startatroot}
+\section{Data Packages}\label{data-packages}
 
-\chapter{Data Packages}\label{data-packages}
-
-\section{Overview}\label{overview}
+\subsection{Overview}\label{overview}
 
 HBR data packages are prepared for submission to the Environmental Data
 Initiative (EDI), following best practices developed over 4 decades by
@@ -380,7 +376,7 @@ EDI serves as the primary repository for HBR data, and details about the
 operation of EDI can be found at
 \href{https://edirepository.org/}{https://edirepository.org}.
 
-\section{Data Holdings}\label{data-holdings}
+\subsection{Data Holdings}\label{data-holdings}
 
 The HBR data catalog has had a strong emphasis on long-term datasets and
 data from the major watershed experiments. Many of these data pre-date
@@ -395,7 +391,7 @@ Graduate students working at Hubbard Brook are also surveyed
 periodically to identify forthcoming datasets and they are also trained
 in the EDI data publication workflow.
 
-\section{Metadata Standards}\label{metadata-standards}
+\subsection{Metadata Standards}\label{metadata-standards}
 
 All HBR data packages are prepared for submission through the
 development of metadata in the Ecological Metadata Language standard
@@ -434,7 +430,7 @@ establishing a relationship with the QUDT ontology
 (\url{https://qudt.org),} developing code to map ad hoc units to this
 ontology, and preparing a manuscript on this effort for publication.
 
-\section{Data Package Development}\label{data-package-development}
+\subsection{Data Package Development}\label{data-package-development}
 
 HBR IM has fully adopted the EDI ezEML application for data package
 development. This cloud-based application was developed by EDI and users
@@ -449,7 +445,7 @@ metadata documentation necessary for the repository.
 A separate chapter describes the data package development workflow in
 detail: \href{DataPackageWorkflow.qmd}{HBR Data Package Development}.
 
-\section{Data Quality Control}\label{data-quality-control}
+\subsection{Data Quality Control}\label{data-quality-control}
 
 The HBR research community is widely dispersed among different
 institutions and laboratories, and data quality control is implemented
@@ -465,7 +461,7 @@ value ranges for data table attributes, coding consistency, and
 additional issues that are flagged within the ezEML environment and the
 EDI congruency checker (the final checks during repository upload).
 
-\section{Access Policy}\label{access-policy}
+\subsection{Access Policy}\label{access-policy}
 
 The HBR data policy follows that of the LTER Data Access Policy, as
 updated in 2017. (\url{https://lternet.edu/data-access-policy}/;
@@ -499,7 +495,7 @@ not be liable for damages resulting from any use or misinterpretation of
 the data.}
 \end{quote}
 
-\section{Data Access}\label{data-access}
+\subsection{Data Access}\label{data-access}
 
 The complete inventory of Hubbard Brook data can be browsed, filtered,
 and searched on the HBR website
@@ -515,7 +511,7 @@ document is generated as needed (for proposals and reviews), and
 describes all HBR data packages in the EDI (and other) repository --
 \textbf{\emph{Hubbard Brook Data Catalog Inventory}}.
 
-Also see ESRC Computer Resources appendix 1.
+\section{IM Software/Hardware}\label{im-softwarehardware}
 
 Table 1 outlines software in use by HBR-IM to manage data package
 development and the Hubbard Brook website.
@@ -548,9 +544,54 @@ off-site \\
 Data management & R, LibreOffice, QGIS, MySQL, PostgreSQL, git \\
 \end{longtable}
 
-\bookmarksetup{startatroot}
+\section{IT Support}\label{it-support}
 
-\chapter{Website}\label{website}
+IT support for the UNH IM team is available through the UNH Research
+Computer Center (RCC). RCC provides support to researchers in the
+Institute for the Study of Earth, Oceans, and Space, as well as to the
+wider University research community, State of NH, and Federal Agencies.
+ESRC has had a long-standing Service Level Agreement (SLA) with RCC
+(more than 20 years) which can be provided to reviewers upon request. In
+addition to overall IT support described in the SLA, RCC also provides
+the personnel for as-needed project support. This gives the HBR-IM team
+access to expertise for special projects, without the need to provide
+ongoing support for personnel on the IM team for programming, web
+design, etc. HBR-IM has also made use of an \emph{RCC-funded} internship
+program, wherein computer science undergraduates are paired with
+researchers in the Institute for Earth, Oceans, and Space.
+
+\section{Account access}\label{account-access}
+
+A number of accounts require access for HBR Information Management. In
+some cases, access can be granted through the UNH Research Computing
+Center, and in other cloud-based accounts the IM has designated a backup
+person to have account access.
+
+\begin{itemize}
+\tightlist
+\item
+  IM desktop and server {[}IM/RCC{]}
+\item
+  UNH HB sharepoint {[}IM/Contosta at unh{]}
+\item
+  Zotero {[}IM/BU{]}
+\item
+  Databases {[}IM/RCC{]}
+\item
+  Piwigo {[}IM/RCC{]}
+\item
+  EDI/ezEML {[}IM/EDI{]}
+\item
+  Jotform {[}IM/Keeling at Cary{]}
+\item
+  Bluehost {[}IM/Post at 6288media{]}
+\item
+  GitHub
+\item
+  hubbardbrook gmail {[}IM/BU{]}
+\end{itemize}
+
+\section{Website}\label{website}
 
 The HBR website
 (\href{https://hubbardbrook.org/}{https://hubbardbrook.org}) is the
@@ -577,11 +618,9 @@ See \textbf{\emph{Hubbard Brook Ecosystem Study Website Management
 Guide}} for website configuration, access to servers and filesystems,
 recommended practices for site content, etc.
 
-\bookmarksetup{startatroot}
+\section{Sample Archive}\label{sample-archive}
 
-\chapter{Sample Archive}\label{sample-archive}
-
-\section{Samples}\label{samples}
+\subsection{Samples}\label{samples}
 
 In 1990, an archive facility was built at the Hubbard Brook Experimental
 Forest to store samples permanently so that they will be available for
@@ -608,7 +647,7 @@ number of publications.
 A Sample Archive Committee (SAC) was formed in 2013 to address storage
 space, future direction, priority for continued bar-coding, etc.
 
-\section{Sample Archive Subsampling
+\subsection{Sample Archive Subsampling
 Policy}\label{sample-archive-subsampling-policy}
 
 HBR shares these archived samples with scientists upon request. As
@@ -632,7 +671,7 @@ sample request form:
 
 \url{https://hubbardbrook.org/sites/default/files/documents/subsampling_request.pdf}
 
-\section{Directions for Sample
+\subsection{Directions for Sample
 Submission}\label{directions-for-sample-submission}
 
 Requirements for acceptance of samples into the archive:
@@ -668,9 +707,7 @@ Requirements for acceptance of samples into the archive:
   requiring storage.
 \end{enumerate}
 
-\bookmarksetup{startatroot}
-
-\chapter{Bibliography}\label{bibliography}
+\section{Bibliography}\label{bibliography}
 
 The current bibliography for Hubbard Brook includes Books, Journal
 Articles, Conference Presentations, and Theses; currently with more than
@@ -691,13 +728,11 @@ to their Hubbard Brook publications.
 The Hubbard Brook bibliography is also mirrored to the LTER Network
 Communication Office (NCO) central LTER bibliographic database.
 
-\bookmarksetup{startatroot}
-
-\chapter{Appendix 1. ESRC/UNH Computing
+\section{Computing
 Facilities}\label{appendix-1.-esrcunh-computing-facilities}
 
-This section has been expanded and included now as a
-\href{UNH_computer_support.qmd}{separate chapter}.
+This section is now in a \href{UNH_computer_support.qmd}{separate
+chapter}.
 
 \bookmarksetup{startatroot}
 
@@ -1248,16 +1283,60 @@ to display pubs on the people profile pages on website
 
 \bookmarksetup{startatroot}
 
-\chapter{Sample Archive Database}\label{sample-archive-database}
+\chapter{Physical Sample Archive}\label{physical-sample-archive}
 
 \section{Overview}\label{overview-4}
 
+The Hubbard Brook Experimental Forest (HBEF) is operated and maintained
+by the USDA Forest Service, Northern Research Station. Research at HBEF
+began in the 1960's and the research community consists of investigators
+from numerous institutions across the US (and world). Collectively, this
+research has been funded by the USDA Forest Service, National Science
+Foundation, Department of Energy, US Geological Survey, other federal
+grant programs, and private foundation funds. Research projects have
+generated a wealth of samples, preserved in either the on-site sample
+archive facility located at HBEF and/or numerous institutional
+collections (biological voucher samples).
+
+The Hubbard Brook Physical Sample Archive was completed in 1990 to
+permanently store research samples for future use in Hubbard Brook
+studies. The building provides a special and unique opportunity to
+maintain a research memory for long term ecosystem studies. To date
+there are 70,000 barcoded and cataloged samples ranging from water
+samples to soils and plant parts. Samples from ongoing, long-term
+collections and shorter-term projects are included. Cataloged samples
+are accessible on-line in a public searchable database and are available
+for subsampling in support of new studies and additional analyses.
+Stored and catalogued samples have been used to address scientific
+questions and have resulted in additional publications featuring
+archived sample analysis. {[}add link to list of published papers using
+archived samples{]}
+
+The archive is managed to accommodate future sample submissions. Samples
+from Hubbard Brook are accepted into the archive system if they are
+likely to be of future use and are accompanied by adequate
+documentation. Detailed metadata is submitted with each sample and
+stored in a relational database. The Hubbard Brook website provides
+browse/search/filter access to the sample database at both the
+collection and sample level.
+
+External collections have been used extensively since the 1960's for the
+preservation of biological voucher specimens. A 2024 assessment of HB
+voucher samples identified more than 2000 samples in 40+ collections in
+the US and Canada. With the growing acceptance of digitial (image/audio)
+vouchers, this number grows to several hundred thousand. Management and
+policies for samples and specimens in external collections are addressed
+in a separate document. See \href{link}{voucher sample chapter} for more
+details.
+
+\section{Sample archive database}\label{sample-archive-database}
+
 The sample archive database is managed by the Hubbard Brook USFS. Sample
-metadata are processed from submission templates (L0) to harmonized
-tables (L1), to appended files for accessions, collections, and samples
-(L2). The workflow and products occurs in the USFS Pinyon (BOX)
-environment. L2 files are staged with URL access for the Rshiny sample
-search app.
+metadata are processed from submission spreadsheet templates (L0) to
+harmonized tables (L1) to appended files for accessions, collections,
+and samples (L2). The workflow and products occurs in the USFS Pinyon
+(BOX) environment. L2 files are staged with URL access for the Rshiny
+sample search app.
 
 \section{Templates}\label{templates}
 
@@ -1267,13 +1346,42 @@ Templates for submitting a new accession can be found \href{link}{here}
 
 The interface for searching and downloading samples of interest is
 developed in Rshiny. This app allows search at the collection level and
-full sample search across all collections.
+full sample search across all collections. The R shiny code is in a
+separate \href{link}{GitHub repository}
+
+\section{Management Plan}\label{management-plan}
+
+Under development and maintained in a seperate document, to cover:
+
+\begin{itemize}
+\tightlist
+\item
+  Archive Location and Infrastructure
+\item
+  Sample Accession -- Policies and Procedures
+\item
+  Sample Identification and Documentation
+\item
+  Data Management
+\item
+  Metadata lifecycle
+\item
+  Access and Permissions
+\item
+  Disposal and Deaccessioning
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{Voucher Specimens}\label{voucher-specimens}
+
+\section{Overview}\label{overview-5}
 
 \bookmarksetup{startatroot}
 
 \chapter{RAC Proposal Submissions}\label{rac-proposal-submissions}
 
-\section{Overview}\label{overview-5}
+\section{Overview}\label{overview-6}
 
 The
 
@@ -1304,89 +1412,8 @@ Template}\label{sample-archive-submission-template}
 
 \chapter{Computer Resources}\label{computer-resources}
 
-\bookmarksetup{startatroot}
-
-\chapter{IT Resources}\label{it-resources}
-
-IT support for the UNH IM team is available through the UNH Research
-Computer Center (RCC). RCC provides support to researchers in the
-Institute for the Study of Earth, Oceans, and Space, as well as to the
-wider University research community, State of NH, and Federal Agencies.
-ESRC has had a long-standing Service Level Agreement (SLA) with RCC
-(more than 20 years) which can be provided to reviewers upon request. In
-addition to overall IT support described in the SLA, RCC also provides
-the personnel for as-needed project support. This gives the HBR-IM team
-access to expertise for special projects, without the need to provide
-ongoing support for personnel on the IM team for programming, web
-design, etc. HBR-IM has also made use of an \emph{RCC-funded} internship
-program, wherein computer science undergraduates are paired with
-researchers in the Institute for Earth, Oceans, and Space.
-
-\section{Software used by IM}\label{software-used-by-im}
-
-Table 1 outlines software in use by HBR-IM to manage data package
-development and the Hubbard Brook website.
-
-Table 1. Features of HBR Information Management System
-
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5139}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4861}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Feature}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Details, software, resources}
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-Website: \href{https://hubbardbrook.org/}{https://hubbardbrook.org} &
-WordPress, html, css, php, xslt, javascript, apache, piwigo \\
-Bibliography & Zotero, Zotpress wordpress plugin \\
-Data Catalog & EDI data repository, local WordPress gateway to EDI HBR
-data, EDIutils R \\
-Metadata & ezEML, PostgreSQL, EML R package, EML2.1 \\
-Computer Hardware & Dell Poweredge R510, desktop and laptop linux
-systems. \\
-Backup & BackupPC, rsnapshot, daily, weekly and monthly backups, on and
-off-site \\
-Data management & R, LibreOffice, QGIS, MySQL, PostgreSQL, git \\
-\end{longtable}
-
-\section{Account access}\label{account-access}
-
-A number of accounts require access for HBR Information Management. In
-some cases, access can be granted through the UNH Research Computing
-Center, and in other cloud-based accounts the IM has designated a backup
-person to have account access.
-
-\begin{itemize}
-\tightlist
-\item
-  IM desktop and server {[}IM/RCC{]}
-\item
-  UNH HB sharepoint {[}IM/Contosta at unh{]}
-\item
-  Zotero {[}IM/BU{]}
-\item
-  Databases {[}IM/RCC{]}
-\item
-  Piwigo {[}IM/RCC{]}
-\item
-  EDI/ezEML {[}IM/EDI{]}
-\item
-  Jotform {[}IM/Keeling at Cary{]}
-\item
-  Bluehost {[}IM/Post at 6288media{]}
-\item
-  GitHub
-\item
-  hubbardbrook gmail {[}IM/BU{]}
-\end{itemize}
-
-\section{Computer Resources}\label{computer-resources-1}
+\section{Computer Resources/Facilities
+(UNH/ESRC)}\label{computer-resourcesfacilities-unhesrc}
 
 The Earth Systems Research Center's (ESRC) Science Computing Facility
 (SCF) has a wide range of computer servers, printers, plotters,

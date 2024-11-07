@@ -11,6 +11,7 @@ book:
     - HBR_dataInventory.qmd
     - PublicationMgmt.qmd
     - SampleArchiveDatabase.qmd
+    - VoucherSamples.qmd
     - RAC_proposals.qmd
     - Templates.qmd
     - UNH_computer_support.qmd
