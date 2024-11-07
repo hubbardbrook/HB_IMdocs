@@ -220,30 +220,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A spreadsheet listing a complete inventory of HBR data, including datasets anticipated and in draft format, is maintained on the UNH HubbardBrook sharepoint site. Access to this sheet is shared by request. This is used to build the local data catalog by merging with content from the LTER PASTA API. It is also used by IM as a local record of what is published, as well as those datasets anticipated, in draft format, or staged for review. The emlWorkflow is used to identify datasets developed by earlier workflows that could be updated to include eml elements not available at time of publication (improved funding metadata, general annotations, qudt unit annotations). The checkbox columns for HBR_V were used to modify our data table listing (proposal supplemental document), by highlighting data used in papers during that funding cycle and data used in the top10 publications that we highlighted in the proposal.</p>
+<p>A spreadsheet listing a complete inventory of HBR data, including datasets anticipated and in draft format, is maintained on the UNH HubbardBrook sharepoint site. Access to this sheet is shared by request. This is used to build the local data catalog by merging with content from the EDI PASTA+ API. It is also used by IM as a local record of what is published, as well as those datasets anticipated, in draft format, or staged for review. The emlWorkflow is used to identify datasets developed by earlier workflows that could be updated to include eml elements not available at time of publication (improved funding metadata, general annotations, qudt unit annotations). The checkbox columns for HBR_V were used to modify our data table listing (proposal supplemental document), by highlighting data used in papers during that funding cycle and data used in the top10 publications that we highlighted in the proposal.</p>
 <p>Shared access to this data inventory table is view-only. Edits to the table are limited to the site IM team. In view-only mode, some useful search/filter includes filtering by project ID (used in the ‘nickname’), by dataset status, core research area, etc. This provides a comprehensive look at our data holdings to include datasets currently under development as well as those anticipated on a longer timeline.</p>
 <ul>
 <li>DataSetID: just the pkg number</li>
-<li>dataset_archive_id: packageId (knb-lter-hbr.XXX)</li>
+<li>dataset_archive_id: packageId (knb-lter-hbr.XXX) assigned by IM</li>
 <li>rev: revision number</li>
-<li>nickname: a short name for the dataset<br>
-</li>
+<li>nickname: a short name for the dataset</li>
 <li>status: dropdown choice of anticipated, draft, staged, cataloged, deprecated, embargoed</li>
 <li>emlWorkflow: legacy, EMLAL, ezEML, mmb (minimetabase)</li>
 <li>notes</li>
 <li>pub_notes</li>
-<li>dbupdatetime:carryover from mmb<br>
-</li>
-<li>update_date_catalog: date of last published revision<br>
-</li>
+<li>dbupdatetime: carryover from mmb</li>
+<li>update_date_catalog: date of last published revision</li>
 <li>who2bug: contacts</li>
-<li>in pasta: binary 0/1 to indicate published<br>
-</li>
+<li>in pasta: binary 0/1 to indicate published</li>
 <li>signature: do we consider this a core HB longterm dataset</li>
-<li>ltercore: core research areas (DP(disturbance process),IM(inorganic matter),OM(organic matter),PP(primary production),PS(population study)<br>
-</li>
-<li>hbr_vcited: data cited in HBR-V publications<br>
-</li>
+<li>ltercore: core research areas (DP(disturbance process),IM(inorganic matter),OM(organic matter),PP(primary production),PS(population study)</li>
+<li>hbr_vcited: data cited in HBR-V publications</li>
 <li>hbr_vtop10: data cited in HBR-V top 10 publications</li>
 </ul>
 

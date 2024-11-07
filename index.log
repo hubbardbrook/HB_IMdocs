@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.2)  6 NOV 2024 20:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.2)  7 NOV 2024 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1127,63 +1127,33 @@ s=FALSE,sep=\",\",na=\"[]
 
 [23]
 chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1231--1233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1242--1244
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1246
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1248--1250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1252--1256
-
- []
-
 [24
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1256--1258
-
- []
-
-[25]
 chapter 5.
-[26
+[25
 
 ]
 chapter 6.
-[27
+[26
 
-] [28]
+] [27]
 chapter 7.
-[29
+[28
 
 ]
 chapter 8.
-[30
+[29
 
 ]
 chapter 9.
-[31
+[30
 
 ]
 chapter 10.
-[32
+[31
 
-] [33]
+] [32]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -1191,7 +1161,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1498 \end{CSLReferences}
+l.1500 \end{CSLReferences}
                            
 Here is how much of TeX's memory you used:
  23615 strings out of 478682
@@ -1202,4 +1172,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  108i,8n,121p,10600b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (33 pages).
+Output written on index.pdf (32 pages).

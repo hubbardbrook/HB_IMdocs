@@ -14,9 +14,11 @@ External collections have been used extensively since the 1960’s for the prese
 
 The sample archive database is managed by the Hubbard Brook USFS. Sample metadata are processed from submission spreadsheet templates (L0) to harmonized tables (L1) to appended files for accessions, collections, and samples (L2). The workflow and products occurs in the USFS Pinyon (BOX) environment. L2 files are staged with URL access for the Rshiny sample search app.
 
-## Templates
+## Templates/Forms
 
 Templates for submitting a new accession can be found [here](link)
+
+Sample subsetting request form can be found [here](subsampling_request.pdf)
 
 ## Rshiny
 
