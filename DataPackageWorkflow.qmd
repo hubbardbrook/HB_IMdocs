@@ -20,7 +20,7 @@ The HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-
 
 The steps are as follows:
 
--   In most cases, a very preliminary zoom with data show and tell occurs to iron out an major issues and to develop a plan for the composition of the data package.
+-   In most cases, a very preliminary zoom with data show and tell occurs to iron out any major issues and to develop a plan for the composition of the data package.
 -   Provide submitter with metadata template using [email template](DBD) to outline the process and description of best practices, such as:
     -   titles with what where when, with the latter YYYY, YYYY-YYYY, or YYYY-ongoing
     -   Date formats as YYYY-MM-DD, or timestamps as YYYY-MM-DD hh:mm
