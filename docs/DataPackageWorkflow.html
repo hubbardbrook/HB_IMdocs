@@ -237,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="overview" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">2.1</span> Overview</h2>
 <p>The purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. HBR data is published in the <a href="https://edirepository.org">Environmental Data Initiative Repository (EDI)</a>. With the availability of EDI’s ezEML data package builder application (adopted by HBR in 2024), this once long and complicated process has been greatly simplified.</p>
-<p>In 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. This serves as a way to directly input metadata without first populating a template, reduces IM time on some data packages, and is an important skill-builder for HBR graduate students.</p>
+<p>In 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. This serves as a way to directly input metadata without first populating a template, reduces IM time on some data packages, and is an important skill-builder for HBR graduate students. Additionally, some of our investigators have projects beyond the scope of Hubbard Brook and have begun using this workflow to publish data.</p>
 <p>EzEML provides the capability to store often-used metadata components in a template. For HBR, there is one master template and additional templates for HB projects that are frequent publishers (MELNHE, HBWaTER, BIRD, CRCH). Since the master template is very extensive, it is not cloned as a starting point for a new dataset (which might be a common template use), but instead accessed through the import [creator, geographic, keywords, project, funding] buttons where just selected items are brought into the current dataset.</p>
 </section>
 <section id="data-package-development-workspace" class="level2" data-number="2.2">
@@ -250,6 +250,15 @@ ul.task-list li input[type="checkbox"] {
 <p>The HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-IM administrator at UNH). This table contains additional information that we use on our local data catalog to enhance user experience (flagging of significant core datasets, more robust LTER Core Research Area assignments that may be missing in older metadata, and a code to categorize datasets and to sort them in the initial catalog view). Data packages are entered in this table as soon as they are identified (in some cases with very long lead times). Upon becoming aware of a dataset, a package id is assigned and the entry initiated with status=anticipated. As soon as data and/or metadata are in-hand, the status is updated to ‘draft’, ‘cataloged’ when published, and ‘embargoed’ if published with a temporary embargo. The table includes packageID, abbreviated title, contact, notes as needed, flagging as long-term core dataset, and EDI submission status.</p>
 <p>The steps are as follows:</p>
 <ul>
+<li>Provide submitter with metadata template using <a href="DBD">email template</a> to outline the process and description of best practices, such as:
+<ul>
+<li>titles with what where when, with the latter YYYY, YYYY-YYYY, or YYYY-ongoing</li>
+<li>Date formats as YYYY-MM-DD, or timestamps as YYYY-MM-DD hh:mm</li>
+<li>Tidy tables!</li>
+<li>Authors in the order they should show up on dataset citation</li>
+<li>Keywords from the LTER controlled vocabulary (and additional if necessary)</li>
+<li>Note that commonly used chunks of metadata can be briefly described without detail, such as author details, geographic locations, taxonomy</li>
+</ul></li>
 <li>Components for data packages are provided to the IM through a sharepoint dropoff.</li>
 <li>ezEML collaboration is established if desired for the dataset.</li>
 <li>A data package is initiated in ezEML with the naming convention of hbr[pkgid]-[shortname].</li>

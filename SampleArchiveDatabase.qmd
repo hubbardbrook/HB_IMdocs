@@ -8,7 +8,7 @@ The Hubbard Brook Physical Sample Archive was completed in 1990 to permanently s
 
 The archive is managed to accommodate future sample submissions. Samples from Hubbard Brook are accepted into the archive system if they are likely to be of future use and are accompanied by adequate documentation. Detailed metadata is submitted with each sample and stored in a relational database. The Hubbard Brook website provides browse/search/filter access to the sample database at both the collection and sample level. 
 
-External collections have been used extensively since the 1960’s for the preservation of biological voucher specimens. A 2024 assessment of HB voucher samples identified more than 2000 samples in 40+ collections in the US and Canada. With the growing acceptance of digitial (image/audio) vouchers, this number grows to several hundred thousand. Management and policies for samples and specimens in external collections are addressed in a separate document. See [voucher sample chapter](link) for more details.
+External collections have been used extensively since the 1960’s for the preservation of biological voucher specimens. A 2024 assessment of HB voucher samples identified more than 2000 samples in 40+ collections in the US and Canada. With the growing acceptance of digitial (image/audio) vouchers, this number grows to several hundred thousand. Management and policies for samples and specimens in external collections are addressed in a separate document. See [voucher sample chapter](VoucherSamples.qmd) for more details.
 
 ## Sample archive database
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.2)  7 NOV 2024 10:29
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.2)  7 NOV 2024 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1070,90 +1070,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--378
 chapter 2.
 [14
 
-] [15] [16]
+] [15] [16] [17]
 chapter 3.
-[17
+[18
 
 ]
-Overfull \hbox (996.17587pt too wide) in paragraph at lines 996--996
+Overfull \hbox (996.17587pt too wide) in paragraph at lines 1022--1022
 []\TU/lmtt/m/n/10.95 url \<- "[https://universitysystemnh.sharepoint.com/:x:/t/
 HubbardBrook/EXFAJdG37VxOsrGI5jMhxmcBc1vTpUnZw1WPtiP3Q5Mc4A?download=1"](https:
 //universitysystemnh.sharepoint.com/:x:/t/HubbardBrook/EXFAJdG37VxOsrGI5jMhxmcB
 c1vTpUnZw1WPtiP3Q5Mc4A?download=1")[] 
  []
 
-[18] [19]
-Overfull \hbox (289.07979pt too wide) in paragraph at lines 1194--1194
+[19] [20]
+Overfull \hbox (289.07979pt too wide) in paragraph at lines 1220--1220
 []\TU/lmtt/m/n/10.95 \"q=\*&fq=-scope:ecotrends&fq=scope:knb-lter-hbr&fq=-scope
 :lter-landsat\*&fl=id,packageid,doi,title,pubdate,begindate,enddate\")[] 
  []
 
 
-Overfull \hbox (70.62735pt too wide) in paragraph at lines 1194--1194
+Overfull \hbox (70.62735pt too wide) in paragraph at lines 1220--1220
 []\TU/lmtt/m/n/10.95 names(res)=c(\"id\",\"PackageId\",\"doi\",\"Title\",\"pubd
 ate\",\"begindate\",\"enddate\")[] 
  []
 
 
-Overfull \hbox (110.86856pt too wide) in paragraph at lines 1194--1194
+Overfull \hbox (110.86856pt too wide) in paragraph at lines 1220--1220
 []\TU/lmtt/m/n/10.95 res\$edilink=paste0(\"https://portal.edirepository.org/nis
 /mapbrowse?packageid=\",res\$PackageId)[] 
  []
 
 
-Overfull \hbox (168.35606pt too wide) in paragraph at lines 1194--1194
+Overfull \hbox (168.35606pt too wide) in paragraph at lines 1220--1220
 []\TU/lmtt/m/n/10.95 \"q=\*&fq=-scope:ecotrends&fq=scope:knb-lter-hbr&fq=-scope
 :lter-landsat\*&fl=id,packageid,keyword,author\",[] 
  []
 
-[20] [21] [22]
-Overfull \hbox (1.64235pt too wide) in paragraph at lines 1194--1194
+[21] [22] [23]
+Overfull \hbox (1.64235pt too wide) in paragraph at lines 1220--1220
 []\TU/lmtt/m/n/10.95 pscat=ps\[,c(\"dataset_archive_id\",\"category\",\"ltercor
 e\",\"pub_notes\")\][] 
  []
 
 
-Overfull \hbox (352.31604pt too wide) in paragraph at lines 1194--1194
+Overfull \hbox (352.31604pt too wide) in paragraph at lines 1220--1220
 []\TU/lmtt/m/n/10.95 wptablefeed=m\[,c(\"PackageId\",\"Title\",\"Originators\",
 \"yearrange\",\"ltercore\",\"edilink\",\"category\",\"pub_notes\",\"Keywords\")
 \][] 
  []
 
 
-Overfull \hbox (18.8886pt too wide) in paragraph at lines 1194--1194
+Overfull \hbox (18.8886pt too wide) in paragraph at lines 1220--1220
 []\TU/lmtt/m/n/10.95 write.table(wptablefeed.order,\"wptablefeed.csv\",row.name
 s=FALSE,sep=\",\",na=\"[] 
  []
 
-[23]
+[24]
 chapter 4.
-[24
-
-]
-chapter 5.
 [25
 
 ]
-chapter 6.
+chapter 5.
 [26
 
-] [27]
-chapter 7.
-[28
-
 ]
-chapter 8.
+chapter 6.
+[27
+
+] [28]
+chapter 7.
 [29
 
 ]
-chapter 9.
+chapter 8.
 [30
 
 ]
-chapter 10.
-[31
+Overfull \hbox (2.04433pt too wide) in paragraph at lines 1499--1501
+[]\TU/lmr/m/n/10.95 To append all files, use: pdfjam file1 file1 file3 … -o RAC
+-proposals_YYYY[spring,fall].pdf 
+ []
 
-] [32]
+[31]
+chapter 9.
+[32
+
+]
+chapter 10.
+[33
+
+] [34]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -1161,15 +1167,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1500 \end{CSLReferences}
+l.1613 \end{CSLReferences}
                            
 Here is how much of TeX's memory you used:
- 23615 strings out of 478682
- 455057 string characters out of 5849006
+ 23617 strings out of 478682
+ 455069 string characters out of 5849006
  1859018 words of memory out of 6000000
- 43433 multiletter control sequences out of 15000+600000
+ 43435 multiletter control sequences out of 15000+600000
  518726 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,8n,121p,10600b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,8n,121p,10600b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (32 pages).
+Output written on index.pdf (34 pages).

@@ -4,7 +4,7 @@
 
 The purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. HBR data is published in the [Environmental Data Initiative Repository (EDI)](https://edirepository.org). With the availability of EDI's ezEML data package builder application (adopted by HBR in 2024), this once long and complicated process has been greatly simplified.
 
-In 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. This serves as a way to directly input metadata without first populating a template, reduces IM time on some data packages, and is an important skill-builder for HBR graduate students.
+In 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. This serves as a way to directly input metadata without first populating a template, reduces IM time on some data packages, and is an important skill-builder for HBR graduate students. Additionally, some of our investigators have projects beyond the scope of Hubbard Brook and have begun using this workflow to publish data.
 
 EzEML provides the capability to store often-used metadata components in a template. For HBR, there is one master template and additional templates for HB projects that are frequent publishers (MELNHE, HBWaTER, BIRD, CRCH). Since the master template is very extensive, it is not cloned as a starting point for a new dataset (which might be a common template use), but instead accessed through the import \[creator, geographic, keywords, project, funding\] buttons where just selected items are brought into the current dataset.
 
@@ -20,6 +20,13 @@ The HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-
 
 The steps are as follows:
 
+-   Provide submitter with metadata template using [email template](DBD) to outline the process and description of best practices, such as:
+    -   titles with what where when, with the latter YYYY, YYYY-YYYY, or YYYY-ongoing
+    -   Date formats as YYYY-MM-DD, or timestamps as YYYY-MM-DD hh:mm
+    -   Tidy tables!
+    -   Authors in the order they should show up on dataset citation
+    -   Keywords from the LTER controlled vocabulary (and additional if necessary)
+    -   Note that commonly used chunks of metadata can be briefly described without detail, such as author details, geographic locations, taxonomy
 -   Components for data packages are provided to the IM through a sharepoint dropoff.
 -   ezEML collaboration is established if desired for the dataset.
 -   A data package is initiated in ezEML with the naming convention of hbr\[pkgid\]-\[shortname\].
