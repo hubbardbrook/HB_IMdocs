@@ -20,10 +20,11 @@ The HBR Data Inventory table is hosted on the HubbardBrook sharepoint site (HBR-
 
 The steps are as follows:
 
+-   In most cases, a very preliminary zoom with data show and tell occurs to iron out an major issues and to develop a plan for the composition of the data package.
 -   Provide submitter with metadata template using [email template](DBD) to outline the process and description of best practices, such as:
     -   titles with what where when, with the latter YYYY, YYYY-YYYY, or YYYY-ongoing
     -   Date formats as YYYY-MM-DD, or timestamps as YYYY-MM-DD hh:mm
-    -   Tidy tables!
+    -   Make sure they understand tidy tables!
     -   Authors in the order they should show up on dataset citation
     -   Keywords from the LTER controlled vocabulary (and additional if necessary)
     -   Note that commonly used chunks of metadata can be briefly described without detail, such as author details, geographic locations, taxonomy
