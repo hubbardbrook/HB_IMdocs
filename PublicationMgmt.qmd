@@ -4,10 +4,9 @@
 
 Hubbard Brook publications are managed in Zotero. The primary database is on the IM desktop where publications are initially ingested.
 
-## Zotero
+## Zotero - step-by-step
 
-On the IM desktop there is full access to publications through the UNH Library.
-
+-   By using Zoteron on the UNH network or via VPN, there is full access to publications through the UNH Library and those are saved with each citation.
 -   publications are identified through self-reporting to IM, google scholar searches, Hubbard Brook Monthly newsletters, and HBR LTER Annual Reports.
 -   each update period is managed in a dated folder in zotero
 -   by clicking zotero icon on pub landing page, it is ingested into Zotero (full citation plus accessible pdfs)

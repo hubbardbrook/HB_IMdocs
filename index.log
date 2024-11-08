@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.7)  8 NOV 2024 09:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.7)  8 NOV 2024 09:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1156,7 +1156,7 @@ chapter 12.
 [35
 
 ]
-Overfull \hbox (2.04433pt too wide) in paragraph at lines 1582--1584
+Overfull \hbox (2.04433pt too wide) in paragraph at lines 1583--1585
 []\TU/lmr/m/n/10.95 To append all files, use: pdfjam file1 file1 file3 … -o RAC
 -proposals_YYYY[spring,fall].pdf 
  []
@@ -1181,7 +1181,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1762 \end{CSLReferences}
+l.1763 \end{CSLReferences}
                            
 Here is how much of TeX's memory you used:
  23709 strings out of 478651
