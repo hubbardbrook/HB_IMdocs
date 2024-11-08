@@ -12,6 +12,9 @@ book:
     - PublicationMgmt.qmd
     - SampleArchiveDatabase.qmd
     - VoucherSamples.qmd
+    - PersonnelDirectory.qml
+    - Listserv.qmd
+    - Website.qmd
     - RAC_proposals.qmd
     - ReportingScripts.qmd
     - Templates.qmd
