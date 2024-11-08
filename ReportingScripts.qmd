@@ -1,0 +1,20 @@
+# Reporting scripts
+
+## Publication Status
+
+This section will describe the reporting we do on publications and link to GitHub repo with scripts as well as current versions of output
+
+
+## Data Status
+
+### Status of data in EDI
+
+Scripts are available to generate an automated table of datasets in EDI. The basic configuration is that of the supplemental table required in LTER renewals. Modifications can easily be made for other purposes/formats.
+
+### Status of All data
+
+This status report is derived from our Data Inventory. A script produces an output table that removes some of the columns in the table that are for day-to-day IM data management. 
+
+## GitHub Repository for scripts
+
+Data scripts primarily use the PASTA+ API. Publication scripts are based on the Zotero bibliography and the EDI Journal Citation feature that links publications to data.

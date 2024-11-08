@@ -1,3 +1,0 @@
-# Publication Status Reports
-
-This section will describe the reporting we do on publications and link to GitHub repo with scripts as well as current versions of output

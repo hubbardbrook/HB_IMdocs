@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.2)  7 NOV 2024 12:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.7)  7 NOV 2024 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -287,7 +287,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -577,6 +582,8 @@ Package caption Info: New subtype `subfigure' on input line 239.
 \c@subfigure=\count320
 Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count321
+) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 188.
 No file index.aux.
@@ -1053,20 +1060,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.66417pt on input line 337.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.47441pt on input line 337.
-
-Underfull \hbox (badness 2426) in paragraph at lines 336--343
-[]\TU/lmr/m/n/10.95 Proposal submissions to the RAC are made through JotForm we
-bforms on [][]$[][][][][] []
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 367--378
-\TU/lmr/m/n/10.95 community ([][]$[][][][][] [] [] [] [][][][][][] [] [][][][][
-][] [] [][] [] [][][][] [][] [][][][][][][] [][] [][][][] [][] [][][][][][][][]
-[] [] [][][] [][] [][][][] [][] [][][][][][][][][] [] [][][][]$[][]).
- []
-
-[7] [8] [9] [10] [11] [12] [13]
+[6] [7] [8] [9] [10] [11] [12] [13]
 chapter 2.
 [14
 
@@ -1163,11 +1157,7 @@ chapter 10.
 chapter 11.
 [34
 
-]
-chapter 12.
-[35
-
-] [36]
+] [35]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -1175,15 +1165,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1649 \end{CSLReferences}
+l.1666 \end{CSLReferences}
                            
 Here is how much of TeX's memory you used:
- 23619 strings out of 478682
- 455081 string characters out of 5849006
- 1859018 words of memory out of 6000000
- 43437 multiletter control sequences out of 15000+600000
+ 23700 strings out of 478651
+ 457183 string characters out of 5848366
+ 1860018 words of memory out of 6000000
+ 43512 multiletter control sequences out of 15000+600000
  518726 words of font info for 83 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 34 hyphenation exceptions out of 8191
  108i,8n,121p,10600b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (36 pages).
+Output written on index.pdf (35 pages).
