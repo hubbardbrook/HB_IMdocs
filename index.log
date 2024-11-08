@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.7)  7 NOV 2024 20:08
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.11.7)  7 NOV 2024 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1140,24 +1140,36 @@ chapter 8.
 [30
 
 ]
-Overfull \hbox (2.04433pt too wide) in paragraph at lines 1521--1523
+chapter 9.
+[31
+
+]
+chapter 10.
+[32
+
+]
+chapter 11.
+[33
+
+]
+Overfull \hbox (2.04433pt too wide) in paragraph at lines 1535--1537
 []\TU/lmr/m/n/10.95 To append all files, use: pdfjam file1 file1 file3 … -o RAC
 -proposals_YYYY[spring,fall].pdf 
  []
 
-[31]
-chapter 9.
-[32
+[34]
+chapter 12.
+[35
 
 ]
-chapter 10.
-[33
+chapter 13.
+[36
 
 ]
-chapter 11.
-[34
+chapter 14.
+[37
 
-] [35]
+] [38]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -1165,15 +1177,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1701 \end{CSLReferences}
+l.1715 \end{CSLReferences}
                            
 Here is how much of TeX's memory you used:
- 23703 strings out of 478651
- 457201 string characters out of 5848366
+ 23705 strings out of 478651
+ 457213 string characters out of 5848366
  1860018 words of memory out of 6000000
- 43515 multiletter control sequences out of 15000+600000
+ 43517 multiletter control sequences out of 15000+600000
  518726 words of font info for 83 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
  108i,8n,121p,10600b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (35 pages).
+Output written on index.pdf (38 pages).
