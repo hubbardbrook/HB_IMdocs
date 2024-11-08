@@ -15,6 +15,7 @@ book:
     - PersonnelDirectory.qmd
     - Listserv.qmd
     - Website.qmd
+    - OnlineBook.qmd
     - RAC_proposals.qmd
     - ReportingScripts.qmd
     - Templates.qmd

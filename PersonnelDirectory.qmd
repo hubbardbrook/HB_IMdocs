@@ -1,1 +1,3 @@
 # Personnel Directory
+
+Describe tracking, grad/postdoc lists, updates to LNO

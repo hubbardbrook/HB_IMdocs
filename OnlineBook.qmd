@@ -1,0 +1,11 @@
+# Online Book
+
+## Managing chapter content
+
+Describe how the chapters are configured in Wordpress, how updates are made.
+
+## Automated graphs
+
+Describe how this is done and point to the repository where the graphs live and are linked to the book
+
+
