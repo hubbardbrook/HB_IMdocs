@@ -820,7 +820,10 @@ The steps are as follows:
   \item
     Date formats as YYYY-MM-DD, or timestamps as YYYY-MM-DD hh:mm
   \item
-    Make sure they understand tidy tables!
+    Make sure submitter understands tidy tables!
+  \item
+    Confirm that submitter has done rigorous QC and help with this if
+    necessary
   \item
     Authors in the order they should show up on dataset citation
   \item
@@ -828,8 +831,8 @@ The steps are as follows:
     necessary)
   \item
     Note that commonly used chunks of metadata can be briefly described
-    without detail, such as author details, geographic locations,
-    taxonomy
+    to IM without detail, such as author details, geographic locations,
+    taxonomy. These will be pulled from the template.
   \end{itemize}
 \item
   Components for data packages are provided to the IM through a
@@ -837,11 +840,20 @@ The steps are as follows:
 \item
   ezEML collaboration is established if desired for the dataset.
 \item
-  A data package is initiated in ezEML with the naming convention of
-  hbr{[}pkgid{]}-{[}shortname{]}.
+  A data package is initiated in ezEML
+
+  \begin{itemize}
+  \tightlist
+  \item
+    naming convention of hbr{[}pkgid{]}-{[}shortname{]}
+  \item
+    use document/new or document/new from template
+  \end{itemize}
 \item
   The HBR Master Template (stored in EDI) is used to import people,
-  geographic areas, keywords, projects, and funding.
+  geographic areas, keywords, projects, and funding. Add items to the
+  template if they are likely to be used in the future. One-off items
+  can be added directly to this new dataset.
 \item
   Data tables are loaded from csv.
 \item
@@ -1299,14 +1311,30 @@ is on the IM desktop where publications are initially ingested.
 \section{Zotero}\label{zotero}
 
 On the IM desktop there is full access to publications through the UNH
-Library. - publications are identified through self-reporting to IM,
-google scholar searches, Hubbard Brook Monthly newsletters, and HBR LTER
-Annual Reports. - each update period is managed in a dated folder in
-zotero - tagging identifies `LTER', `data-only', and last\_f tags for
-each HB author. - once tagged, the new pubs are copied to the HBR-LTER
-group folder. - the group folder is synced to the hubbardbrook Zotero
-account. Syncing is set not to upload the pdfs, as this can violate
-copyright. Publications since \textasciitilde2010 contain DOI links.
+Library.
+
+\begin{itemize}
+\tightlist
+\item
+  publications are identified through self-reporting to IM, google
+  scholar searches, Hubbard Brook Monthly newsletters, and HBR LTER
+  Annual Reports.
+\item
+  each update period is managed in a dated folder in zotero
+\item
+  by clicking zotero icon on pub landing page, it is ingested into
+  Zotero (full citation plus accessible pdfs)
+\item
+  tagging identifies `LTER', `data-only', and last\_f tags for each HB
+  author (the latter facilitates Zotpress links to each person's profile
+  on the website).
+\item
+  once tagged, the new pubs are copied to the HBR-LTER group folder.
+\item
+  the group folder is synced to the hubbardbrook Zotero cloud account.
+  Syncing is set \emph{not} to upload the pdfs, as this can violate
+  copyright. Publications since \textasciitilde2010 contain DOI links.
+\end{itemize}
 
 \section{EDI publication-data
 linkages}\label{edi-publication-data-linkages}

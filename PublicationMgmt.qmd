@@ -2,17 +2,18 @@
 
 ## Overview
 
-Hubbard Brook publications are managed in Zotero. The primary database is on the IM desktop where publications are initially ingested. 
-
+Hubbard Brook publications are managed in Zotero. The primary database is on the IM desktop where publications are initially ingested.
 
 ## Zotero
 
-On the IM desktop there is full access to publications through the UNH Library. 
-- publications are identified through self-reporting to IM, google scholar searches, Hubbard Brook Monthly newsletters, and HBR LTER Annual Reports.
-- each update period is managed in a dated folder in zotero
-- tagging identifies 'LTER', 'data-only', and last_f tags for each HB author.
-- once tagged, the new pubs are copied to the HBR-LTER group folder. 
-- the group folder is synced to the hubbardbrook Zotero account. Syncing is set not to upload the pdfs, as this can violate copyright. Publications since ~2010 contain DOI links.
+On the IM desktop there is full access to publications through the UNH Library.
+
+-   publications are identified through self-reporting to IM, google scholar searches, Hubbard Brook Monthly newsletters, and HBR LTER Annual Reports.
+-   each update period is managed in a dated folder in zotero
+-   by clicking zotero icon on pub landing page, it is ingested into Zotero (full citation plus accessible pdfs)
+-   tagging identifies 'LTER', 'data-only', and last_f tags for each HB author (the latter facilitates Zotpress links to each person's profile on the website).
+-   once tagged, the new pubs are copied to the HBR-LTER group folder.
+-   the group folder is synced to the hubbardbrook Zotero cloud account. Syncing is set *not* to upload the pdfs, as this can violate copyright. Publications since \~2010 contain DOI links.
 
 ## EDI publication-data linkages
 
