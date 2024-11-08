@@ -2,14 +2,27 @@
 
 ## Email
 
-- Confirm addition to listserv, invite to have a profile page, introduce IM support
+### New community members.
 
-  Access [Email template](Email_Welcome2HBR.md)
-  
+Confirm addition to listserv, invite to have a profile page, introduce IM support
+
+- Access [Email template](Email_Welcome2HBR.qmd)
+
+### Email to RAC approved investigators
+
 - IM introduction following RAC proposal acceptance
+
+### Emails to data submitter
+
+- Initial instructions
+- Invitation/instructions to review draft dataset
+- Confirmation of published data with information on citing and revisions
+
 
 ## Data Submission Template
 
+- add link to template
+
 ## Sample Archive Submission Template
 
-
+- add link to template
