@@ -1,1 +1,1 @@
-# HB_IMdocs
+# Hubbard Brook Information Management documents
