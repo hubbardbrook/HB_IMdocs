@@ -1,5 +1,7 @@
 # Computer Resources
 
+A section in the Data Management Plan describes the software/hardware regularly used by HBR IM. It also covers IT support and a list of contacts who have access to accounts used by IM (UNH systems, EDI, cloud-based accounts. [Link](https://hubbardbrook.github.io/HB_IMdocs/docs/intro.html#im-softwarehardware)
+
 ## Computer Resources/Facilities (UNH/ESRC)
 
 The Earth Systems Research Center's (ESRC) Science Computing Facility (SCF) has a wide range of computer servers, printers, plotters, archiving systems, software, data archives, and web based data distribution systems that are integrated using several internal networks and connected to the outside world through a high speed pipe. The overall SCF administration is provided by the Research Computing Center (RCC) located in the Institute for the Study of Earth, Oceans and Space (EOS). Scientific data processing and analysis support is distributed throughout workgroups within the center with additional centralized expertise provided by ESRC's Laboratory for Remote Sensing and Spatial Analysis. RCC's Lenharth Data Center was upgraded in September 2011. This upgrade brought in new APC UPS units, energy efficient in-rack cooling systems, and monitoring hardware to provide more space and capability for future growth. Within this proposal, we take advantage of this existing computer infrastructure, to meet our anticipated computational needs.
